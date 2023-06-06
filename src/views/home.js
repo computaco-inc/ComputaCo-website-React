@@ -99,19 +99,24 @@ const Home = (props) => {
         <div className="home-header">
           <h1 className="home-text007">ComputaCo</h1>
           <h2>Redefining Computation. Revolutionizing Tomorrow.</h2>
-          <img alt="image" src="/mouse.svg" className="home-image02" />
+          <div className="home-container1">
+            <img alt="image" src="/mouse.svg" className="home-image02" />
+            <span>
+              We&apos;re under construction right now. Please come back soon!
+            </span>
+          </div>
         </div>
         <div className="home-hero-image">
-          <img alt="image" src="/computer.svg" className="home-image03" />
+          <img alt="image" src="/logo.svg" className="home-image03" />
         </div>
       </div>
       <div className="home-who">
         <div className="home-header1">
           <div className="home-heading">
-            <h2 className="home-text009">
+            <h2 className="home-text010">
               ComputaCo. Redefining Computation. Revolutionizing Tomorrow.
             </h2>
-            <span className="home-text010">
+            <span className="home-text011">
               We aim to redefine the very nature of computation, facilitating
               seamless information exchange between individuals and machines,
               and in the process, unlocking unparalleled levels of productivity
@@ -163,11 +168,11 @@ const Home = (props) => {
                 <span className="home-title">Education</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text011">Perspiciatis</span>
-                <span className="home-text012">Nemo voluptatem</span>
-                <span className="home-text013">Dolore magnam</span>
-                <span className="home-text014">Tempora</span>
-                <span className="home-text015">Reprehenderit qui</span>
+                <span className="home-text012">Perspiciatis</span>
+                <span className="home-text013">Nemo voluptatem</span>
+                <span className="home-text014">Dolore magnam</span>
+                <span className="home-text015">Tempora</span>
+                <span className="home-text016">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item">
@@ -175,11 +180,11 @@ const Home = (props) => {
                 <span className="home-title01">B2B</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text016">Perspiciatis</span>
-                <span className="home-text017">Nemo voluptatem</span>
-                <span className="home-text018">Dolore magnam</span>
-                <span className="home-text019">Tempora</span>
-                <span className="home-text020">Reprehenderit qui</span>
+                <span className="home-text017">Perspiciatis</span>
+                <span className="home-text018">Nemo voluptatem</span>
+                <span className="home-text019">Dolore magnam</span>
+                <span className="home-text020">Tempora</span>
+                <span className="home-text021">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item1">
@@ -193,11 +198,11 @@ const Home = (props) => {
                 data-role="accordion-content"
                 className="accordion-content accordion-content-active"
               >
-                <span className="home-text021">Perspiciatis</span>
-                <span className="home-text022">Nemo voluptatem</span>
-                <span className="home-text023">Dolore magnam</span>
-                <span className="home-text024">Tempora</span>
-                <span className="home-text025">Reprehenderit qui</span>
+                <span className="home-text022">Perspiciatis</span>
+                <span className="home-text023">Nemo voluptatem</span>
+                <span className="home-text024">Dolore magnam</span>
+                <span className="home-text025">Tempora</span>
+                <span className="home-text026">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item2">
@@ -208,11 +213,11 @@ const Home = (props) => {
                 <span className="home-title03">Ecommerce</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text026">Perspiciatis</span>
-                <span className="home-text027">Nemo voluptatem</span>
-                <span className="home-text028">Dolore magnam</span>
-                <span className="home-text029">Tempora</span>
-                <span className="home-text030">Reprehenderit qui</span>
+                <span className="home-text027">Perspiciatis</span>
+                <span className="home-text028">Nemo voluptatem</span>
+                <span className="home-text029">Dolore magnam</span>
+                <span className="home-text030">Tempora</span>
+                <span className="home-text031">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item3">
@@ -223,11 +228,11 @@ const Home = (props) => {
                 <span className="home-title04">Marketing</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text031">Perspiciatis</span>
-                <span className="home-text032">Nemo voluptatem</span>
-                <span className="home-text033">Dolore magnam</span>
-                <span className="home-text034">Tempora</span>
-                <span className="home-text035">Reprehenderit qui</span>
+                <span className="home-text032">Perspiciatis</span>
+                <span className="home-text033">Nemo voluptatem</span>
+                <span className="home-text034">Dolore magnam</span>
+                <span className="home-text035">Tempora</span>
+                <span className="home-text036">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item4">
@@ -238,11 +243,11 @@ const Home = (props) => {
                 <span className="home-title05">SAAS</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text036">Perspiciatis</span>
-                <span className="home-text037">Nemo voluptatem</span>
-                <span className="home-text038">Dolore magnam</span>
-                <span className="home-text039">Tempora</span>
-                <span className="home-text040">Reprehenderit qui</span>
+                <span className="home-text037">Perspiciatis</span>
+                <span className="home-text038">Nemo voluptatem</span>
+                <span className="home-text039">Dolore magnam</span>
+                <span className="home-text040">Tempora</span>
+                <span className="home-text041">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item5">
@@ -253,11 +258,11 @@ const Home = (props) => {
                 <span className="home-title06">Media</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text041">Perspiciatis</span>
-                <span className="home-text042">Nemo voluptatem</span>
-                <span className="home-text043">Dolore magnam</span>
-                <span className="home-text044">Tempora</span>
-                <span className="home-text045">Reprehenderit qui</span>
+                <span className="home-text042">Perspiciatis</span>
+                <span className="home-text043">Nemo voluptatem</span>
+                <span className="home-text044">Dolore magnam</span>
+                <span className="home-text045">Tempora</span>
+                <span className="home-text046">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item6">
@@ -268,11 +273,11 @@ const Home = (props) => {
                 <span className="home-title07">Social</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text046">Perspiciatis</span>
-                <span className="home-text047">Nemo voluptatem</span>
-                <span className="home-text048">Dolore magnam</span>
-                <span className="home-text049">Tempora</span>
-                <span className="home-text050">Reprehenderit qui</span>
+                <span className="home-text047">Perspiciatis</span>
+                <span className="home-text048">Nemo voluptatem</span>
+                <span className="home-text049">Dolore magnam</span>
+                <span className="home-text050">Tempora</span>
+                <span className="home-text051">Reprehenderit qui</span>
               </div>
             </div>
           </div>
@@ -360,11 +365,11 @@ const Home = (props) => {
       <div className="home-section">
         <div className="home-case-studies">
           <div className="home-caption4">
-            <span className="home-text051">Roadmap</span>
+            <span className="home-text052">Roadmap</span>
             <div className="home-date-range">
-              <span className="home-text052">JUNE 2023</span>
-              <span className="home-text053">——</span>
-              <span className="home-text054">DEC 2024</span>
+              <span className="home-text053">JUNE 2023</span>
+              <span className="home-text054">——</span>
+              <span className="home-text055">DEC 2024</span>
             </div>
           </div>
         </div>
@@ -379,7 +384,7 @@ const Home = (props) => {
               >
                 <path d="M670.165 737.835l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331l256 256c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
               </svg>
-              <span className="home-text055">——</span>
+              <span className="home-text056">——</span>
               <svg
                 id="quote-next"
                 viewBox="0 0 1024 1024"
@@ -414,7 +419,7 @@ const Home = (props) => {
       <div className="home-book">
         <div className="home-content1">
           <div className="home-left">
-            <h2 className="home-text056">Join the Waitlist</h2>
+            <h2 className="home-text057">Join the Waitlist</h2>
             <span className="home-description03">
               We&apos;re working as fast as we responsibly can. Hang tight for a
               little while longer. And use the time to prepare yourself for the
@@ -426,20 +431,20 @@ const Home = (props) => {
                 placeholder="email"
                 className="home-textinput input"
               />
-              <div className="home-container1">
+              <div className="home-container2">
                 <input type="checkbox" checked="true" />
                 <span>
                   You may store for the purpose of notifying me when it&apos;s
                   my turn
                 </span>
               </div>
-              <div className="home-container2"></div>
+              <div className="home-container3"></div>
               <button className="home-button1 button">
-                <span className="home-text058">Join the Waitlist</span>
+                <span className="home-text059">Join the Waitlist</span>
               </button>
             </form>
           </div>
-          <img alt="image" src="/message.svg" className="home-image06" />
+          <img alt="image" src="/computer.svg" className="home-image06" />
         </div>
       </div>
       <div className="home-section1">
@@ -452,20 +457,20 @@ const Home = (props) => {
           </div>
           <div className="home-statistics">
             <div className="home-statistic">
-              <span className="home-text059">25</span>
-              <span className="home-text060">Years of experience</span>
+              <span className="home-text060">25</span>
+              <span className="home-text061">Years of experience</span>
             </div>
             <div className="home-statistic1">
-              <span className="home-text061">40+</span>
-              <span className="home-text062">Years of Experts on board</span>
+              <span className="home-text062">40+</span>
+              <span className="home-text063">Years of Experts on board</span>
             </div>
             <div className="home-statistic2">
-              <span className="home-text063">300+</span>
-              <span className="home-text064">Finished projects</span>
+              <span className="home-text064">300+</span>
+              <span className="home-text065">Finished projects</span>
             </div>
             <div className="home-statistic3">
-              <span className="home-text065">3</span>
-              <span className="home-text066">Offices worldwide</span>
+              <span className="home-text066">3</span>
+              <span className="home-text067">Offices worldwide</span>
             </div>
           </div>
           <div className="home-dna">
@@ -531,13 +536,13 @@ const Home = (props) => {
             />
           </div>
           <div className="home-recruit">
-            <div className="home-container3">
-              <h2 className="home-text067">
+            <div className="home-container4">
+              <h2 className="home-text068">
                 <span>Calling all intelligences</span>
                 <br></br>
               </h2>
               <span className="home-description12">
-                <span className="home-text070">
+                <span className="home-text071">
                   We hold ourselves to high standards. Specifically, we&apos;re
                   looking for engineers who are
                 </span>
@@ -547,31 +552,31 @@ const Home = (props) => {
             </div>
             <div className="home-sections">
               <div className="home-section2">
-                <span className="home-text073">
+                <span className="home-text074">
                   <span>trailblazers</span>
                   <br></br>
                 </span>
-                <span className="home-text076">
+                <span className="home-text077">
                   ones constantly pushing the envelope, who aren&apos;t afraid
                   to challenge the status quo, never settling for &quot;good
                   enough&quot;
                 </span>
               </div>
               <div className="home-section3">
-                <span className="home-text077">
+                <span className="home-text078">
                   <span>team players</span>
                   <br></br>
                 </span>
-                <span className="home-text080">
+                <span className="home-text081">
                   authentic, humble, empathetic, kind individuals
                 </span>
               </div>
               <div className="home-section4">
-                <span className="home-text081">
+                <span className="home-text082">
                   <span>automators</span>
                   <br></br>
                 </span>
-                <span className="home-text084">
+                <span className="home-text085">
                   <span>
                     someone who is resourceful with their intelligence and time,
                     who delegates extensively to AI
@@ -580,8 +585,8 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-section5">
-                <span className="home-text087">learners</span>
-                <span className="home-text088">
+                <span className="home-text088">learners</span>
+                <span className="home-text089">
                   someone who actually reads the papers, doesn&apos;t rely on
                   &quot;the way it was done last month&quot;
                 </span>
@@ -592,7 +597,7 @@ const Home = (props) => {
               <br></br>
             </span>
             <button className="home-button2 button">
-              <span className="home-text091">
+              <span className="home-text092">
                 <span>join us</span>
                 <br></br>
               </span>
