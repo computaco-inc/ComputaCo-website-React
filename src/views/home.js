@@ -588,7 +588,7 @@ const Home = (props) => {
               </div>
             </div>
             <span className="home-description13">
-              <span>Do you feel ComputaCo is your calling?</span>
+              <span>Is ComputaCo is your calling?</span>
               <br></br>
             </span>
             <button className="home-button2 button">
@@ -618,7 +618,7 @@ const Home = (props) => {
             </a>
             <span>hello@computaco.ai</span>
             <a
-              href="https://example.com"
+              href="https://twitter.com/computaco"
               target="_blank"
               rel="noreferrer noopener"
               className="home-link04"
@@ -654,7 +654,7 @@ const Home = (props) => {
               />
             </a>
             <a
-              href="https://example.com"
+              href="https://www.linkedin.com/company/computaco/"
               target="_blank"
               rel="noreferrer noopener"
               className="home-link07"
@@ -666,7 +666,7 @@ const Home = (props) => {
               />
             </a>
             <a
-              href="https://example.com"
+              href="https://www.youtube.com/@ComputaCoInc"
               target="_blank"
               rel="noreferrer noopener"
               className="home-link08"
