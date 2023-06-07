@@ -3,7 +3,7 @@ import React from 'react'
 import DangerousHTML from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
-import NavLinks from '../components/nav-links'
+import Navbar from '../components/navbar'
 import Testimonial from '../components/testimonial'
 import Footer from '../components/footer'
 import './home.css'
@@ -23,95 +23,26 @@ const Home = (props) => {
           content="ComputaCo\nComputaCode\nComputatrum\nComputaCombinator\nComputation Redefined\nHuman-Machine Interaction"
         />
       </Helmet>
-      <div className="home-navbar">
-        <header data-thq="thq-navbar" className="home-navbar-interactive">
-          <div className="home-branding">
-            <span className="home-text">ComputaCo</span>
-          </div>
-          <div
-            data-thq="thq-navbar-nav"
-            data-role="Nav"
-            className="home-desktop-menu"
-          >
-            <nav
-              data-thq="thq-navbar-nav-links"
-              data-role="Nav"
-              className="home-nav"
-            >
-              <div className="home-right">
-                <NavLinks></NavLinks>
-                <div className="home-button">
-                  <button className="home-work-with-us button">
-                    <span className="home-text001">Sign in / up</span>
-                    <img
-                      alt="image"
-                      src="/hamburger.svg"
-                      className="home-image"
-                    />
-                  </button>
-                </div>
-              </div>
-            </nav>
-          </div>
-          <div data-thq="thq-burger-menu" className="home-burger-menu">
-            <button className="home-work-with-us1 button">
-              <span className="home-text002">work with us</span>
-              <img alt="image" src="/hamburger.svg" className="home-image01" />
-            </button>
-          </div>
-          <div data-thq="thq-mobile-menu" className="home-mobile-menu">
-            <div
-              data-thq="thq-mobile-menu-nav"
-              data-role="Nav"
-              className="home-nav1"
-            >
-              <div className="home-top">
-                <div className="home-branding1">
-                  <span className="home-text003">hola studio</span>
-                </div>
-                <div data-thq="thq-close-menu" className="home-menu-close">
-                  <svg viewBox="0 0 1024 1024" className="home-icon">
-                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                  </svg>
-                </div>
-              </div>
-              <nav
-                data-thq="thq-mobile-menu-nav-links"
-                data-role="Nav"
-                className="home-middle"
-              >
-                <div className="home-links">
-                  <span className="navLink">work</span>
-                  <span className="navLink">services</span>
-                  <span className="navLink">contact</span>
-                </div>
-                <button className="home-work-with-us2 button">
-                  <span className="home-text004">work with us</span>
-                </button>
-              </nav>
-            </div>
-          </div>
-        </header>
-      </div>
+      <Navbar></Navbar>
       <div className="home-hero">
         <div className="home-header">
-          <h1 className="home-text005">ComputaCo</h1>
+          <h1 className="home-text">ComputaCo</h1>
           <h2>Redefining Computation. Revolutionizing Tomorrow.</h2>
           <div className="home-container1">
-            <img alt="image" src="/mouse.svg" className="home-image02" />
+            <img alt="image" src="/mouse.svg" className="home-image" />
           </div>
         </div>
         <div className="home-hero-image">
-          <img alt="image" src="/logo.svg" className="home-image03" />
+          <img alt="image" src="/logo.svg" className="home-image1" />
         </div>
       </div>
       <div className="home-who">
         <div className="home-header1">
           <div className="home-heading">
-            <h2 className="home-text007">
+            <h2 className="home-text02">
               ComputaCo. Redefining Computation. Revolutionizing Tomorrow.
             </h2>
-            <span className="home-text008">
+            <span className="home-text03">
               We aim to redefine the very nature of computation, facilitating
               seamless information exchange between individuals and machines,
               and in the process, unlocking unparalleled levels of productivity
@@ -121,8 +52,8 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-preview">
-          <div className="home-image04">
-            <img alt="image" src="/preview.svg" className="home-image05" />
+          <div className="home-image2">
+            <img alt="image" src="/preview.svg" className="home-image3" />
           </div>
           <div className="home-video">
             <video src poster="/video.svg" className="home-video1"></video>
@@ -163,23 +94,23 @@ const Home = (props) => {
                 <span className="home-title">Education</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text009">Perspiciatis</span>
-                <span className="home-text010">Nemo voluptatem</span>
-                <span className="home-text011">Dolore magnam</span>
-                <span className="home-text012">Tempora</span>
-                <span className="home-text013">Reprehenderit qui</span>
+                <span className="home-text04">Perspiciatis</span>
+                <span className="home-text05">Nemo voluptatem</span>
+                <span className="home-text06">Dolore magnam</span>
+                <span className="home-text07">Tempora</span>
+                <span className="home-text08">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item">
               <div data-role="accordion-trigger" className="accordion-trigger">
-                <span className="home-title01">B2B</span>
+                <span className="home-title1">B2B</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text014">Perspiciatis</span>
-                <span className="home-text015">Nemo voluptatem</span>
-                <span className="home-text016">Dolore magnam</span>
-                <span className="home-text017">Tempora</span>
-                <span className="home-text018">Reprehenderit qui</span>
+                <span className="home-text09">Perspiciatis</span>
+                <span className="home-text10">Nemo voluptatem</span>
+                <span className="home-text11">Dolore magnam</span>
+                <span className="home-text12">Tempora</span>
+                <span className="home-text13">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item1">
@@ -187,17 +118,17 @@ const Home = (props) => {
                 data-role="accordion-trigger"
                 className="home-trigger2 accordion-trigger accordion-trigger-active"
               >
-                <span className="home-title02">Tech Startup</span>
+                <span className="home-title2">Tech Startup</span>
               </div>
               <div
                 data-role="accordion-content"
                 className="accordion-content accordion-content-active"
               >
-                <span className="home-text019">Perspiciatis</span>
-                <span className="home-text020">Nemo voluptatem</span>
-                <span className="home-text021">Dolore magnam</span>
-                <span className="home-text022">Tempora</span>
-                <span className="home-text023">Reprehenderit qui</span>
+                <span className="home-text14">Perspiciatis</span>
+                <span className="home-text15">Nemo voluptatem</span>
+                <span className="home-text16">Dolore magnam</span>
+                <span className="home-text17">Tempora</span>
+                <span className="home-text18">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item2">
@@ -205,14 +136,14 @@ const Home = (props) => {
                 data-role="accordion-trigger"
                 className="home-trigger3 accordion-trigger"
               >
-                <span className="home-title03">Ecommerce</span>
+                <span className="home-title3">Ecommerce</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text024">Perspiciatis</span>
-                <span className="home-text025">Nemo voluptatem</span>
-                <span className="home-text026">Dolore magnam</span>
-                <span className="home-text027">Tempora</span>
-                <span className="home-text028">Reprehenderit qui</span>
+                <span className="home-text19">Perspiciatis</span>
+                <span className="home-text20">Nemo voluptatem</span>
+                <span className="home-text21">Dolore magnam</span>
+                <span className="home-text22">Tempora</span>
+                <span className="home-text23">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item3">
@@ -220,14 +151,14 @@ const Home = (props) => {
                 data-role="accordion-trigger"
                 className="home-trigger4 accordion-trigger"
               >
-                <span className="home-title04">Marketing</span>
+                <span className="home-title4">Marketing</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text029">Perspiciatis</span>
-                <span className="home-text030">Nemo voluptatem</span>
-                <span className="home-text031">Dolore magnam</span>
-                <span className="home-text032">Tempora</span>
-                <span className="home-text033">Reprehenderit qui</span>
+                <span className="home-text24">Perspiciatis</span>
+                <span className="home-text25">Nemo voluptatem</span>
+                <span className="home-text26">Dolore magnam</span>
+                <span className="home-text27">Tempora</span>
+                <span className="home-text28">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item4">
@@ -235,14 +166,14 @@ const Home = (props) => {
                 data-role="accordion-trigger"
                 className="home-trigger5 accordion-trigger"
               >
-                <span className="home-title05">SAAS</span>
+                <span className="home-title5">SAAS</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text034">Perspiciatis</span>
-                <span className="home-text035">Nemo voluptatem</span>
-                <span className="home-text036">Dolore magnam</span>
-                <span className="home-text037">Tempora</span>
-                <span className="home-text038">Reprehenderit qui</span>
+                <span className="home-text29">Perspiciatis</span>
+                <span className="home-text30">Nemo voluptatem</span>
+                <span className="home-text31">Dolore magnam</span>
+                <span className="home-text32">Tempora</span>
+                <span className="home-text33">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item5">
@@ -250,14 +181,14 @@ const Home = (props) => {
                 data-role="accordion-trigger"
                 className="home-trigger6 accordion-trigger"
               >
-                <span className="home-title06">Media</span>
+                <span className="home-title6">Media</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text039">Perspiciatis</span>
-                <span className="home-text040">Nemo voluptatem</span>
-                <span className="home-text041">Dolore magnam</span>
-                <span className="home-text042">Tempora</span>
-                <span className="home-text043">Reprehenderit qui</span>
+                <span className="home-text34">Perspiciatis</span>
+                <span className="home-text35">Nemo voluptatem</span>
+                <span className="home-text36">Dolore magnam</span>
+                <span className="home-text37">Tempora</span>
+                <span className="home-text38">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item6">
@@ -265,14 +196,14 @@ const Home = (props) => {
                 data-role="accordion-trigger"
                 className="home-trigger7 accordion-trigger"
               >
-                <span className="home-title07">Social</span>
+                <span className="home-title7">Social</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text044">Perspiciatis</span>
-                <span className="home-text045">Nemo voluptatem</span>
-                <span className="home-text046">Dolore magnam</span>
-                <span className="home-text047">Tempora</span>
-                <span className="home-text048">Reprehenderit qui</span>
+                <span className="home-text39">Perspiciatis</span>
+                <span className="home-text40">Nemo voluptatem</span>
+                <span className="home-text41">Dolore magnam</span>
+                <span className="home-text42">Tempora</span>
+                <span className="home-text43">Reprehenderit qui</span>
               </div>
             </div>
           </div>
@@ -360,11 +291,11 @@ const Home = (props) => {
       <div className="home-section">
         <div className="home-case-studies">
           <div className="home-caption4">
-            <span className="home-text049">Roadmap</span>
+            <span className="home-text44">Roadmap</span>
             <div className="home-date-range">
-              <span className="home-text050">JUNE 2023</span>
-              <span className="home-text051">——</span>
-              <span className="home-text052">DEC 2024</span>
+              <span className="home-text45">JUNE 2023</span>
+              <span className="home-text46">——</span>
+              <span className="home-text47">DEC 2024</span>
             </div>
           </div>
         </div>
@@ -375,15 +306,15 @@ const Home = (props) => {
               <svg
                 id="quote-previous"
                 viewBox="0 0 1024 1024"
-                className="home-icon2"
+                className="home-icon"
               >
                 <path d="M670.165 737.835l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331l256 256c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
               </svg>
-              <span className="home-text053">——</span>
+              <span className="home-text48">——</span>
               <svg
                 id="quote-next"
                 viewBox="0 0 1024 1024"
-                className="home-icon4"
+                className="home-icon2"
               >
                 <path d="M414.165 798.165l256-256c16.683-16.683 16.683-43.691 0-60.331l-256-256c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l225.835 225.835-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"></path>
               </svg>
@@ -414,7 +345,7 @@ const Home = (props) => {
       <div className="home-book">
         <div className="home-content1">
           <div className="home-left">
-            <h2 className="home-text054">
+            <h2 className="home-text49">
               <span>Early Access</span>
               <br></br>
             </h2>
@@ -424,7 +355,7 @@ const Home = (props) => {
               greatest digital transformation humans have ever experienced!
             </span>
             <form className="home-form">
-              <button className="home-button1 button">
+              <button className="home-button button">
                 <a
                   href="https://cdn.forms-content.sg-form.com/10525b5f-0547-11ee-ae98-e2f0e34d8c7e"
                   target="_blank"
@@ -436,13 +367,13 @@ const Home = (props) => {
               </button>
             </form>
           </div>
-          <img alt="image" src="/computer.svg" className="home-image06" />
+          <img alt="image" src="/computer.svg" className="home-image4" />
         </div>
       </div>
       <div className="home-book1">
         <div className="home-content2">
           <div className="home-left1">
-            <h2 className="home-text059">
+            <h2 className="home-text54">
               <span>Early Access</span>
               <br></br>
             </h2>
@@ -465,12 +396,12 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-container3"></div>
-              <button className="home-button2 button">
-                <span className="home-text063">Join the Waitlist</span>
+              <button className="home-button1 button">
+                <span className="home-text58">Join the Waitlist</span>
               </button>
             </form>
           </div>
-          <img alt="image" src="/computer.svg" className="home-image07" />
+          <img alt="image" src="/computer.svg" className="home-image5" />
         </div>
       </div>
       <div className="home-section1">
@@ -483,20 +414,20 @@ const Home = (props) => {
           </div>
           <div className="home-statistics">
             <div className="home-statistic">
-              <span className="home-text064">25</span>
-              <span className="home-text065">Years of experience</span>
+              <span className="home-text59">25</span>
+              <span className="home-text60">Years of experience</span>
             </div>
             <div className="home-statistic1">
-              <span className="home-text066">40+</span>
-              <span className="home-text067">Years of Experts on board</span>
+              <span className="home-text61">40+</span>
+              <span className="home-text62">Years of Experts on board</span>
             </div>
             <div className="home-statistic2">
-              <span className="home-text068">300+</span>
-              <span className="home-text069">Finished projects</span>
+              <span className="home-text63">300+</span>
+              <span className="home-text64">Finished projects</span>
             </div>
             <div className="home-statistic3">
-              <span className="home-text070">3</span>
-              <span className="home-text071">Offices worldwide</span>
+              <span className="home-text65">3</span>
+              <span className="home-text66">Offices worldwide</span>
             </div>
           </div>
           <div className="home-dna">
@@ -553,22 +484,22 @@ const Home = (props) => {
             <img
               alt="image"
               src="/unsplash-image-700w.jpeg"
-              className="home-image08"
+              className="home-image6"
             />
             <img
               alt="image"
               src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDl8fG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfHx8fDE2ODYxNTM5Nzl8MA&amp;ixlib=rb-4.0.3&amp;w=800"
-              className="home-image09"
+              className="home-image7"
             />
           </div>
           <div className="home-recruit">
             <div className="home-container4">
-              <h2 className="home-text072">
+              <h2 className="home-text67">
                 <span>Calling all intelligences</span>
                 <br></br>
               </h2>
               <span className="home-description13">
-                <span className="home-text075">
+                <span className="home-text70">
                   We hold ourselves to high standards. Specifically, we&apos;re
                   looking for engineers who are
                 </span>
@@ -578,31 +509,31 @@ const Home = (props) => {
             </div>
             <div className="home-sections">
               <div className="home-section2">
-                <span className="home-text078">
+                <span className="home-text73">
                   <span>trailblazers</span>
                   <br></br>
                 </span>
-                <span className="home-text081">
+                <span className="home-text76">
                   ones constantly pushing the envelope, who aren&apos;t afraid
                   to challenge the status quo, never settling for &quot;good
                   enough&quot;
                 </span>
               </div>
               <div className="home-section3">
-                <span className="home-text082">
+                <span className="home-text77">
                   <span>team players</span>
                   <br></br>
                 </span>
-                <span className="home-text085">
+                <span className="home-text80">
                   authentic, humble, empathetic, kind individuals
                 </span>
               </div>
               <div className="home-section4">
-                <span className="home-text086">
+                <span className="home-text81">
                   <span>automators</span>
                   <br></br>
                 </span>
-                <span className="home-text089">
+                <span className="home-text84">
                   <span>
                     someone who is resourceful with their intelligence and time,
                     who delegates extensively to AI
@@ -611,8 +542,8 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-section5">
-                <span className="home-text092">learners</span>
-                <span className="home-text093">
+                <span className="home-text87">learners</span>
+                <span className="home-text88">
                   someone who actually reads the papers, doesn&apos;t rely on
                   &quot;the way it was done last month&quot;
                 </span>
@@ -622,8 +553,8 @@ const Home = (props) => {
               <span>Is ComputaCo is your calling?</span>
               <br></br>
             </span>
-            <button className="home-button3 button">
-              <span className="home-text096">
+            <button className="home-button2 button">
+              <span className="home-text91">
                 <span>join us</span>
                 <br></br>
               </span>
@@ -633,168 +564,6 @@ const Home = (props) => {
       </div>
       <footer className="home-footer">
         <Footer></Footer>
-        <div className="home-content3">
-          <div className="home-contact">
-            <span className="home-email">hello@computaco.ai</span>
-            <span className="home-number">+1 682.351.8740</span>
-          </div>
-          <div className="home-links-row">
-            <div className="home-links-column">
-              <span className="home-link04">Responsive Web Design</span>
-              <span className="home-link05">Design to Code</span>
-              <span className="home-link06">Static Website Designer</span>
-              <span className="home-link07">Static Website Generator</span>
-            </div>
-            <div className="home-links-column1">
-              <span className="home-link08">About</span>
-              <span className="home-link09">Team</span>
-              <span className="home-link10">News</span>
-              <span className="home-link11">Partners</span>
-              <span className="home-link12">Careers</span>
-              <span className="home-link13">Press &amp; Media</span>
-            </div>
-          </div>
-        </div>
-        <div className="home-locations">
-          <div className="home-location">
-            <span className="home-title08">United States</span>
-            <span className="home-details07">
-              <span>90210 Broadway Street</span>
-              <br></br>
-              <span>San Francisco</span>
-              <br></br>
-              <br></br>
-              <span>hola_us@hola.studio</span>
-            </span>
-          </div>
-          <div className="home-location1">
-            <span className="home-title09">Romania</span>
-            <span className="home-details08">
-              <span>115 Turzii Road</span>
-              <br></br>
-              <span>Cluj Napoca</span>
-              <br></br>
-              <br></br>
-              <span>hola_ro@hola.studio</span>
-            </span>
-          </div>
-          <div className="home-location2">
-            <span className="home-title10">United Kingdom</span>
-            <span className="home-details09">
-              <span>87–135 Brompton Road</span>
-              <br></br>
-              <span>London</span>
-              <br></br>
-              <br></br>
-              <span>hola_uk@hola.studio</span>
-            </span>
-          </div>
-          <div className="home-location3">
-            <span className="home-title11">Spain</span>
-            <span className="home-details10">
-              <span>34-36 Carrer de Tele</span>
-              <br></br>
-              <span>Barcelona</span>
-              <br></br>
-              <br></br>
-              <span>hola_sp@hola.studio</span>
-            </span>
-          </div>
-        </div>
-        <div className="home-socials">
-          <div className="home-row1">
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/facebook%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/twitter%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/dribbble%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/instagram%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-          </div>
-          <div className="home-row2">
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/linkedin%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/youtube%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/telegram%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/medium%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-          </div>
-        </div>
       </footer>
     </div>
   )
