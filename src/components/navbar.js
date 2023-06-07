@@ -26,7 +26,7 @@ const Navbar = (props) => {
             className="navbar-nav"
           >
             <div className="navbar-right">
-              <NavLinks></NavLinks>
+              <NavLinks rootClassName="nav-links-root-class-name"></NavLinks>
               <div className="navbar-button">
                 <button className="navbar-work-with-us button">
                   <span className="navbar-text1">{props.text4}</span>
@@ -72,15 +72,6 @@ const Navbar = (props) => {
               className="navbar-middle"
             >
               <div className="navbar-links">
-                <span className="navLink navbar-computacode">
-                  {props.computacode1}
-                </span>
-                <span className="navLink navbar-computatrum">
-                  {props.computatrum}
-                </span>
-                <span className="navLink navbar-computacombinator">
-                  {props.computacombinator}
-                </span>
                 <Link to="/computa-code" className="navbar-link navLink">
                   {props.Link}
                 </Link>

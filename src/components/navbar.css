@@ -214,6 +214,9 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
+  .navbar-text2 {
+    display: none;
+  }
   .navbar-image1 {
     width: 16px;
     height: 14px;
@@ -239,14 +242,5 @@
     font-size: 2em;
     font-style: normal;
     font-weight: 500;
-  }
-  .navbar-computacode {
-    display: none;
-  }
-  .navbar-computatrum {
-    display: none;
-  }
-  .navbar-computacombinator {
-    display: none;
   }
 }

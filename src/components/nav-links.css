@@ -15,8 +15,12 @@
 .nav-links-link2 {
   text-decoration: none;
 }
+
 @media(max-width: 767px) {
   .nav-links-links {
     display: none;
+  }
+  .nav-links-root-class-name {
+    display: flex;
   }
 }

@@ -7,7 +7,7 @@ import './nav-links.css'
 
 const NavLinks = (props) => {
   return (
-    <div className="nav-links-links">
+    <div className={`nav-links-links ${props.rootClassName} `}>
       <Link to="/computa-code" className="nav-links-link navLink">
         {props.Link}
       </Link>
@@ -26,6 +26,7 @@ NavLinks.defaultProps = {
   Link: 'ComputaCode',
   Link2: 'ComputaCombinator',
   Link3: 'ComputaCo',
+  rootClassName: '',
 }
 
 NavLinks.propTypes = {
@@ -33,6 +34,7 @@ NavLinks.propTypes = {
   Link: PropTypes.string,
   Link2: PropTypes.string,
   Link3: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default NavLinks
