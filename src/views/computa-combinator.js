@@ -48,7 +48,7 @@ const ComputaCombinator = (props) => {
           <img
             alt="image"
             src="/logo.svg"
-            className="computa-combinator-image01"
+            className="computa-combinator-image1"
           />
         </div>
       </div>
@@ -68,11 +68,11 @@ const ComputaCombinator = (props) => {
           </div>
         </div>
         <div className="computa-combinator-preview">
-          <div className="computa-combinator-image02">
+          <div className="computa-combinator-image2">
             <img
               alt="image"
               src="/preview.svg"
-              className="computa-combinator-image03"
+              className="computa-combinator-image3"
             />
           </div>
           <div className="computa-combinator-video">
@@ -513,7 +513,7 @@ const ComputaCombinator = (props) => {
           <img
             alt="image"
             src="/computer.svg"
-            className="computa-combinator-image04"
+            className="computa-combinator-image4"
           />
         </div>
       </div>
@@ -553,7 +553,7 @@ const ComputaCombinator = (props) => {
           <img
             alt="image"
             src="/computer.svg"
-            className="computa-combinator-image05"
+            className="computa-combinator-image5"
           />
         </div>
       </div>
@@ -656,12 +656,12 @@ const ComputaCombinator = (props) => {
             <img
               alt="image"
               src="/unsplash-image-700w.jpeg"
-              className="computa-combinator-image06"
+              className="computa-combinator-image6"
             />
             <img
               alt="image"
               src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDl8fG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfHx8fDE2ODYxNTM5Nzl8MA&amp;ixlib=rb-4.0.3&amp;w=800"
-              className="computa-combinator-image07"
+              className="computa-combinator-image7"
             />
           </div>
           <div className="computa-combinator-recruit">
@@ -810,100 +810,6 @@ const ComputaCombinator = (props) => {
               <br></br>
               <span>hola_sp@hola.studio</span>
             </span>
-          </div>
-        </div>
-        <div className="computa-combinator-socials">
-          <div className="computa-combinator-row1">
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/facebook%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/twitter%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/dribbble%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/instagram%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-          </div>
-          <div className="computa-combinator-row2">
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/linkedin%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/youtube%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/telegram%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/medium%20-%20negative.svg"
-                className="social"
-              />
-            </a>
           </div>
         </div>
       </footer>

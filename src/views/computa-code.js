@@ -40,7 +40,7 @@ const ComputaCode = (props) => {
           </div>
         </div>
         <div className="computa-code-hero-image">
-          <img alt="image" src="/logo.svg" className="computa-code-image01" />
+          <img alt="image" src="/logo.svg" className="computa-code-image1" />
         </div>
       </div>
       <div className="computa-code-who">
@@ -59,11 +59,11 @@ const ComputaCode = (props) => {
           </div>
         </div>
         <div className="computa-code-preview">
-          <div className="computa-code-image02">
+          <div className="computa-code-image2">
             <img
               alt="image"
               src="/preview.svg"
-              className="computa-code-image03"
+              className="computa-code-image3"
             />
           </div>
           <div className="computa-code-video">
@@ -450,7 +450,7 @@ const ComputaCode = (props) => {
           <img
             alt="image"
             src="/computer.svg"
-            className="computa-code-image04"
+            className="computa-code-image4"
           />
         </div>
       </div>
@@ -488,7 +488,7 @@ const ComputaCode = (props) => {
           <img
             alt="image"
             src="/computer.svg"
-            className="computa-code-image05"
+            className="computa-code-image5"
           />
         </div>
       </div>
@@ -585,12 +585,12 @@ const ComputaCode = (props) => {
             <img
               alt="image"
               src="/unsplash-image-700w.jpeg"
-              className="computa-code-image06"
+              className="computa-code-image6"
             />
             <img
               alt="image"
               src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDl8fG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfHx8fDE2ODYxNTM5Nzl8MA&amp;ixlib=rb-4.0.3&amp;w=800"
-              className="computa-code-image07"
+              className="computa-code-image7"
             />
           </div>
           <div className="computa-code-recruit">
@@ -735,100 +735,6 @@ const ComputaCode = (props) => {
               <br></br>
               <span>hola_sp@hola.studio</span>
             </span>
-          </div>
-        </div>
-        <div className="computa-code-socials">
-          <div className="computa-code-row1">
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/facebook%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/twitter%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/dribbble%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/instagram%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-          </div>
-          <div className="computa-code-row2">
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/linkedin%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/youtube%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/telegram%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/medium%20-%20negative.svg"
-                className="social"
-              />
-            </a>
           </div>
         </div>
       </footer>

@@ -37,7 +37,7 @@ const Computatrum = (props) => {
           </div>
         </div>
         <div className="computatrum-hero-image">
-          <img alt="image" src="/logo.svg" className="computatrum-image01" />
+          <img alt="image" src="/logo.svg" className="computatrum-image1" />
         </div>
       </div>
       <div className="computatrum-who">
@@ -56,11 +56,11 @@ const Computatrum = (props) => {
           </div>
         </div>
         <div className="computatrum-preview">
-          <div className="computatrum-image02">
+          <div className="computatrum-image2">
             <img
               alt="image"
               src="/preview.svg"
-              className="computatrum-image03"
+              className="computatrum-image3"
             />
           </div>
           <div className="computatrum-video">
@@ -423,11 +423,7 @@ const Computatrum = (props) => {
               </span>
             </a>
           </div>
-          <img
-            alt="image"
-            src="/computer.svg"
-            className="computatrum-image04"
-          />
+          <img alt="image" src="/computer.svg" className="computatrum-image4" />
         </div>
       </div>
       <div className="computatrum-book1">
@@ -461,11 +457,7 @@ const Computatrum = (props) => {
               </button>
             </form>
           </div>
-          <img
-            alt="image"
-            src="/computer.svg"
-            className="computatrum-image05"
-          />
+          <img alt="image" src="/computer.svg" className="computatrum-image5" />
         </div>
       </div>
       <div className="computatrum-section1">
@@ -561,12 +553,12 @@ const Computatrum = (props) => {
             <img
               alt="image"
               src="/unsplash-image-700w.jpeg"
-              className="computatrum-image06"
+              className="computatrum-image6"
             />
             <img
               alt="image"
               src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDl8fG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfHx8fDE2ODYxNTM5Nzl8MA&amp;ixlib=rb-4.0.3&amp;w=800"
-              className="computatrum-image07"
+              className="computatrum-image7"
             />
           </div>
           <div className="computatrum-recruit">
@@ -711,100 +703,6 @@ const Computatrum = (props) => {
               <br></br>
               <span>hola_sp@hola.studio</span>
             </span>
-          </div>
-        </div>
-        <div className="computatrum-socials">
-          <div className="computatrum-row1">
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/facebook%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/twitter%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/dribbble%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/instagram%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-          </div>
-          <div className="computatrum-row2">
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/linkedin%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/youtube%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/telegram%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img
-                alt="image"
-                src="/medium%20-%20negative.svg"
-                className="social"
-              />
-            </a>
           </div>
         </div>
       </footer>

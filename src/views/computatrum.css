@@ -60,7 +60,7 @@
   justify-content: center;
   background-color: #E5FE58;
 }
-.computatrum-image01 {
+.computatrum-image1 {
   width: 640px;
   height: 540px;
   object-fit: cover;
@@ -113,7 +113,7 @@
   padding-right: 170px;
   flex-direction: row;
 }
-.computatrum-image02 {
+.computatrum-image2 {
   width: 100%;
   display: flex;
   position: relative;
@@ -122,7 +122,7 @@
   flex-direction: column;
   background-color: #E5FE58;
 }
-.computatrum-image03 {
+.computatrum-image3 {
   object-fit: cover;
   margin-left: -160px;
 }
@@ -768,7 +768,7 @@
   text-decoration: none;
   background-color: rgb(0, 0, 0);
 }
-.computatrum-image04 {
+.computatrum-image4 {
   height: 400px;
   object-fit: cover;
 }
@@ -852,7 +852,7 @@
   text-transform: lowercase;
   background-color: rgb(0, 0, 0);
 }
-.computatrum-image05 {
+.computatrum-image5 {
   height: 400px;
   object-fit: cover;
 }
@@ -1051,7 +1051,7 @@
   flex-direction: row;
   padding-bottom: 120px;
 }
-.computatrum-image06 {
+.computatrum-image6 {
   right: 0px;
   width: 640px;
   bottom: 0px;
@@ -1059,7 +1059,7 @@
   position: absolute;
   object-fit: cover;
 }
-.computatrum-image07 {
+.computatrum-image7 {
   width: 760px;
   object-fit: cover;
 }
@@ -1425,13 +1425,6 @@
   font-size: 16px;
   line-height: 24px;
 }
-.computatrum-socials {
-  gap: var(--dl-space-space-twounits);
-  display: none;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
 @media(max-width: 991px) {
   .computatrum-hero {
     gap: var(--dl-space-space-fourunits);
@@ -1476,11 +1469,11 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     flex-direction: column;
   }
-  .computatrum-image02 {
+  .computatrum-image2 {
     width: 80%;
     height: 100%;
   }
-  .computatrum-image03 {
+  .computatrum-image3 {
     width: 100%;
   }
   .computatrum-video {
@@ -1786,7 +1779,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .computatrum-image04 {
+  .computatrum-image4 {
     height: 220px;
   }
   .computatrum-book1 {
@@ -1814,7 +1807,7 @@
   .computatrum-text068 {
     font-size: 16px;
   }
-  .computatrum-image05 {
+  .computatrum-image5 {
     height: 220px;
   }
   .computatrum-section1 {
@@ -2031,29 +2024,9 @@
   .computatrum-title11 {
     font-size: 24px;
   }
-  .computatrum-socials {
-    width: 100%;
-    display: flex;
-    padding-top: var(--dl-space-space-threeunits);
-    flex-direction: column;
-  }
-  .computatrum-row1 {
-    gap: var(--dl-space-space-fourunits);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .computatrum-row2 {
-    gap: var(--dl-space-space-fourunits);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
 @media(max-width: 767px) {
-  .computatrum-image01 {
+  .computatrum-image1 {
     width: auto;
     height: 220px;
   }
@@ -2071,24 +2044,24 @@
   .computatrum-video1 {
     margin-top: 0px;
   }
-  .computatrum-image06 {
+  .computatrum-image6 {
     width: 350px;
   }
-  .computatrum-image07 {
+  .computatrum-image7 {
     width: 350px;
   }
 }
 @media(max-width: 479px) {
-  .computatrum-image03 {
+  .computatrum-image3 {
     margin-left: -120px;
   }
   .computatrum-video {
     bottom: -419px;
   }
-  .computatrum-image06 {
+  .computatrum-image6 {
     width: 240px;
   }
-  .computatrum-image07 {
+  .computatrum-image7 {
     top: 250px;
     width: 240px;
   }

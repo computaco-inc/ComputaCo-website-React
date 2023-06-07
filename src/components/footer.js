@@ -85,7 +85,7 @@ const Footer = (props) => {
             {props.text31}
           </a>
           <a
-            href="mailto:jacob.valdez@computaco.ai?subject=Interested in work at ComputaCo Inc (please tell me your skillz and share links to prev work)"
+            href="mailto:jacob.valdez@computaco.ai?subject=Interested in work at ComputaCo Inc (please explain how you contribute to our mission. include links)"
             className="footer-link7"
           >
             {props.text311}
