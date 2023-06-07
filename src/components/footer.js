@@ -21,12 +21,7 @@ const Footer = (props) => {
             className="footer-image social"
           />
         </a>
-        <a
-          href={props.link_text}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="footer-link1"
-        >
+        <a href="mailto:hello@computaco.ai?subject=" className="footer-link1">
           {props.text}
         </a>
         <a
