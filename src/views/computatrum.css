@@ -756,14 +756,7 @@
   max-width: 900px;
   line-height: 54px;
 }
-.computatrum-form {
-  width: 585px;
-  height: 69px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.computatrum-button {
+.computatrum-link {
   color: rgb(255, 255, 255);
   font-size: 24px;
   padding-top: var(--dl-space-space-unit);
@@ -772,6 +765,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
   text-transform: lowercase;
+  text-decoration: none;
   background-color: rgb(0, 0, 0);
 }
 .computatrum-image04 {
@@ -805,7 +799,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computatrum-text063 {
+.computatrum-text064 {
   font-size: 54px;
   font-weight: initial;
   line-height: 65px;
@@ -817,7 +811,7 @@
   max-width: 900px;
   line-height: 54px;
 }
-.computatrum-form1 {
+.computatrum-form {
   width: 585px;
   height: 231px;
   display: flex;
@@ -847,7 +841,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.computatrum-button1 {
+.computatrum-button {
   color: rgb(255, 255, 255);
   font-size: 24px;
   padding-top: var(--dl-space-space-unit);
@@ -916,12 +910,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.computatrum-text068 {
+.computatrum-text069 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.computatrum-text069 {
+.computatrum-text070 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -935,12 +929,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.computatrum-text070 {
+.computatrum-text071 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.computatrum-text071 {
+.computatrum-text072 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -954,12 +948,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.computatrum-text072 {
+.computatrum-text073 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.computatrum-text073 {
+.computatrum-text074 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -973,12 +967,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.computatrum-text074 {
+.computatrum-text075 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.computatrum-text075 {
+.computatrum-text076 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -1086,7 +1080,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.computatrum-text082 {
+.computatrum-text083 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   max-width: 1000px;
@@ -1113,13 +1107,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computatrum-text088 {
+.computatrum-text089 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.computatrum-text091 {
+.computatrum-text092 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1132,13 +1126,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computatrum-text092 {
+.computatrum-text093 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.computatrum-text095 {
+.computatrum-text096 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1150,13 +1144,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computatrum-text096 {
+.computatrum-text097 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.computatrum-text099 {
+.computatrum-text100 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1168,13 +1162,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computatrum-text102 {
+.computatrum-text103 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.computatrum-text103 {
+.computatrum-text104 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1185,7 +1179,7 @@
   font-size: 30px;
   line-height: 54px;
 }
-.computatrum-button2 {
+.computatrum-button1 {
   color: rgb(39, 39, 45);
   font-size: 24px;
   line-height: 30px;
@@ -1808,7 +1802,7 @@
     gap: var(--dl-space-space-oneandhalfunits);
     align-items: center;
   }
-  .computatrum-text063 {
+  .computatrum-text064 {
     font-size: 32px;
     text-align: center;
     line-height: 38px;
@@ -1817,7 +1811,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .computatrum-text067 {
+  .computatrum-text068 {
     font-size: 16px;
   }
   .computatrum-image05 {
@@ -1845,35 +1839,35 @@
     flex-direction: column;
     justify-content: center;
   }
-  .computatrum-text068 {
+  .computatrum-text069 {
     font-size: 32px;
     line-height: 38px;
-  }
-  .computatrum-text069 {
-    font-size: 16px;
-    line-height: 24px;
   }
   .computatrum-text070 {
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 16px;
+    line-height: 24px;
   }
   .computatrum-text071 {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 32px;
+    line-height: 38px;
   }
   .computatrum-text072 {
-    font-size: 32px;
-    line-height: 38px;
-  }
-  .computatrum-text073 {
     font-size: 16px;
     line-height: 24px;
   }
-  .computatrum-text074 {
+  .computatrum-text073 {
     font-size: 32px;
     line-height: 38px;
   }
+  .computatrum-text074 {
+    font-size: 16px;
+    line-height: 24px;
+  }
   .computatrum-text075 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .computatrum-text076 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -1927,7 +1921,7 @@
     gap: var(--dl-space-space-threeunits);
     padding-top: 0px;
   }
-  .computatrum-text082 {
+  .computatrum-text083 {
     font-size: 32px;
     line-height: 38px;
   }
@@ -1935,7 +1929,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .computatrum-text085 {
+  .computatrum-text086 {
     font-size: 16px;
     line-height: 28px;
   }
@@ -1946,44 +1940,44 @@
   .computatrum-section2 {
     gap: var(--dl-space-space-halfunit);
   }
-  .computatrum-text088 {
+  .computatrum-text089 {
     font-size: 24px;
     line-height: 30px;
   }
-  .computatrum-text091 {
+  .computatrum-text092 {
     font-size: 16px;
     line-height: 24px;
   }
   .computatrum-section3 {
     gap: var(--dl-space-space-halfunit);
   }
-  .computatrum-text092 {
+  .computatrum-text093 {
     font-size: 24px;
     line-height: 30px;
   }
-  .computatrum-text095 {
+  .computatrum-text096 {
     font-size: 16px;
     line-height: 24px;
   }
   .computatrum-section4 {
     gap: var(--dl-space-space-halfunit);
   }
-  .computatrum-text096 {
+  .computatrum-text097 {
     font-size: 24px;
     line-height: 30px;
   }
-  .computatrum-text099 {
+  .computatrum-text100 {
     font-size: 16px;
     line-height: 24px;
   }
   .computatrum-section5 {
     gap: var(--dl-space-space-halfunit);
   }
-  .computatrum-text102 {
+  .computatrum-text103 {
     font-size: 24px;
     line-height: 30px;
   }
-  .computatrum-text103 {
+  .computatrum-text104 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -1991,7 +1985,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .computatrum-text106 {
+  .computatrum-text107 {
     font-size: 16px;
     line-height: 20px;
   }

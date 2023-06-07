@@ -498,18 +498,17 @@ const ComputaCombinator = (props) => {
               your entrepreneurial journey. We look forward to supporting you in
               transforming your dreams into thriving businesses.
             </span>
-            <form className="computa-combinator-form">
-              <button className="computa-combinator-button button">
-                <a
-                  href="https://cdn.forms-content.sg-form.com/10525b5f-0547-11ee-ae98-e2f0e34d8c7e"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <span>join the early access group</span>
-                  <br></br>
-                </a>
-              </button>
-            </form>
+            <a
+              href="https://cdn.forms-content.sg-form.com/10525b5f-0547-11ee-ae98-e2f0e34d8c7e"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="computa-combinator-link button"
+            >
+              <span>
+                <span>join the early access group</span>
+                <br></br>
+              </span>
+            </a>
           </div>
           <img
             alt="image"
@@ -521,7 +520,7 @@ const ComputaCombinator = (props) => {
       <div className="computa-combinator-book1">
         <div className="computa-combinator-content2">
           <div className="computa-combinator-left1">
-            <h2 className="computa-combinator-text072">
+            <h2 className="computa-combinator-text073">
               <span>Early Access</span>
               <br></br>
             </h2>
@@ -530,7 +529,7 @@ const ComputaCombinator = (props) => {
               little while longer. And use the time to prepare yourself for the
               greatest digital transformation humans have ever experienced!
             </span>
-            <form className="computa-combinator-form1">
+            <form className="computa-combinator-form">
               <input
                 type="text"
                 placeholder="email"
@@ -544,8 +543,8 @@ const ComputaCombinator = (props) => {
                 </span>
               </div>
               <div className="computa-combinator-container3"></div>
-              <button className="computa-combinator-button1 button">
-                <span className="computa-combinator-text076">
+              <button className="computa-combinator-button button">
+                <span className="computa-combinator-text077">
                   Join the Waitlist
                 </span>
               </button>
@@ -567,26 +566,26 @@ const ComputaCombinator = (props) => {
           </div>
           <div className="computa-combinator-statistics">
             <div className="computa-combinator-statistic">
-              <span className="computa-combinator-text077">25</span>
-              <span className="computa-combinator-text078">
+              <span className="computa-combinator-text078">25</span>
+              <span className="computa-combinator-text079">
                 Years of experience
               </span>
             </div>
             <div className="computa-combinator-statistic1">
-              <span className="computa-combinator-text079">40+</span>
-              <span className="computa-combinator-text080">
+              <span className="computa-combinator-text080">40+</span>
+              <span className="computa-combinator-text081">
                 Years of Experts on board
               </span>
             </div>
             <div className="computa-combinator-statistic2">
-              <span className="computa-combinator-text081">300+</span>
-              <span className="computa-combinator-text082">
+              <span className="computa-combinator-text082">300+</span>
+              <span className="computa-combinator-text083">
                 Finished projects
               </span>
             </div>
             <div className="computa-combinator-statistic3">
-              <span className="computa-combinator-text083">3</span>
-              <span className="computa-combinator-text084">
+              <span className="computa-combinator-text084">3</span>
+              <span className="computa-combinator-text085">
                 Offices worldwide
               </span>
             </div>
@@ -667,12 +666,12 @@ const ComputaCombinator = (props) => {
           </div>
           <div className="computa-combinator-recruit">
             <div className="computa-combinator-container4">
-              <h2 className="computa-combinator-text091">
+              <h2 className="computa-combinator-text092">
                 <span>Calling all intelligences</span>
                 <br></br>
               </h2>
               <span className="computa-combinator-description16">
-                <span className="computa-combinator-text094">
+                <span className="computa-combinator-text095">
                   We hold ourselves to high standards. Specifically, we&apos;re
                   looking for engineers who are
                 </span>
@@ -682,31 +681,31 @@ const ComputaCombinator = (props) => {
             </div>
             <div className="computa-combinator-sections">
               <div className="computa-combinator-section2">
-                <span className="computa-combinator-text097">
+                <span className="computa-combinator-text098">
                   <span>trailblazers</span>
                   <br></br>
                 </span>
-                <span className="computa-combinator-text100">
+                <span className="computa-combinator-text101">
                   ones constantly pushing the envelope, who aren&apos;t afraid
                   to challenge the status quo, never settling for &quot;good
                   enough&quot;
                 </span>
               </div>
               <div className="computa-combinator-section3">
-                <span className="computa-combinator-text101">
+                <span className="computa-combinator-text102">
                   <span>team players</span>
                   <br></br>
                 </span>
-                <span className="computa-combinator-text104">
+                <span className="computa-combinator-text105">
                   authentic, humble, empathetic, kind individuals
                 </span>
               </div>
               <div className="computa-combinator-section4">
-                <span className="computa-combinator-text105">
+                <span className="computa-combinator-text106">
                   <span>automators</span>
                   <br></br>
                 </span>
-                <span className="computa-combinator-text108">
+                <span className="computa-combinator-text109">
                   <span>
                     someone who is resourceful with their intelligence and time,
                     who delegates extensively to AI
@@ -715,8 +714,8 @@ const ComputaCombinator = (props) => {
                 </span>
               </div>
               <div className="computa-combinator-section5">
-                <span className="computa-combinator-text111">learners</span>
-                <span className="computa-combinator-text112">
+                <span className="computa-combinator-text112">learners</span>
+                <span className="computa-combinator-text113">
                   someone who actually reads the papers, doesn&apos;t rely on
                   &quot;the way it was done last month&quot;
                 </span>
@@ -726,8 +725,8 @@ const ComputaCombinator = (props) => {
               <span>Is ComputaCo is your calling?</span>
               <br></br>
             </span>
-            <button className="computa-combinator-button2 button">
-              <span className="computa-combinator-text115">
+            <button className="computa-combinator-button1 button">
+              <span className="computa-combinator-text116">
                 <span>join us</span>
                 <br></br>
               </span>

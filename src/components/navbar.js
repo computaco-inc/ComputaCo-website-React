@@ -10,16 +10,11 @@ const Navbar = (props) => {
   return (
     <div className="navbar-navbar">
       <header data-thq="thq-navbar" className="navbar-navbar-interactive">
-        <div className="navbar-branding">
-          <a
-            href={props.link_text1}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="navbar-link"
-          >
-            {props.text6}
-          </a>
-        </div>
+        <Link to="/" className="navbar-navlink">
+          <div className="navbar-branding">
+            <h1 className="navbar-text">{props.text6}</h1>
+          </div>
+        </Link>
         <div
           data-thq="thq-navbar-nav"
           data-role="Nav"
@@ -34,7 +29,7 @@ const Navbar = (props) => {
               <NavLinks></NavLinks>
               <div className="navbar-button">
                 <button className="navbar-work-with-us button">
-                  <span className="navbar-text">{props.text4}</span>
+                  <span className="navbar-text1">{props.text4}</span>
                   <img
                     alt={props.image_alt1}
                     src={props.image_src1}
@@ -47,7 +42,7 @@ const Navbar = (props) => {
         </div>
         <div data-thq="thq-burger-menu" className="navbar-burger-menu">
           <button className="navbar-work-with-us1 button">
-            <span className="navbar-text1">{props.text1}</span>
+            <span className="navbar-text2">{props.text1}</span>
             <img
               alt={props.image_alt}
               src={props.image_src}
@@ -63,7 +58,7 @@ const Navbar = (props) => {
           >
             <div className="navbar-top">
               <div className="navbar-branding1">
-                <span className="navbar-text2">{props.text2}</span>
+                <h1 className="navbar-text3">{props.text61}</h1>
               </div>
               <div data-thq="thq-close-menu" className="navbar-menu-close">
                 <svg viewBox="0 0 1024 1024" className="navbar-icon">
@@ -86,13 +81,13 @@ const Navbar = (props) => {
                 <span className="navLink navbar-computacombinator">
                   {props.computacombinator}
                 </span>
-                <Link to="/computa-code" className="navbar-link1 navLink">
+                <Link to="/computa-code" className="navbar-link navLink">
                   {props.Link}
                 </Link>
-                <Link to="/computatrum" className="navbar-link2 navLink">
+                <Link to="/computatrum" className="navbar-link1 navLink">
                   {props.Link1}
                 </Link>
-                <Link to="/computa-combinator" className="navbar-link3 navLink">
+                <Link to="/computa-combinator" className="navbar-link2 navLink">
                   {props.Link2}
                 </Link>
               </div>
@@ -131,6 +126,7 @@ Navbar.defaultProps = {
   text8: 'Link',
   image_alt1: 'image',
   computacode1: 'ComputaCode',
+  text61: 'ComputaCo',
 }
 
 Navbar.propTypes = {
@@ -160,6 +156,7 @@ Navbar.propTypes = {
   text8: PropTypes.string,
   image_alt1: PropTypes.string,
   computacode1: PropTypes.string,
+  text61: PropTypes.string,
 }
 
 export default Navbar

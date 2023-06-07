@@ -751,14 +751,7 @@
   max-width: 900px;
   line-height: 54px;
 }
-.computa-combinator-form {
-  width: 585px;
-  height: 69px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.computa-combinator-button {
+.computa-combinator-link {
   color: rgb(255, 255, 255);
   font-size: 24px;
   padding-top: var(--dl-space-space-unit);
@@ -767,6 +760,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
   text-transform: lowercase;
+  text-decoration: none;
   background-color: rgb(0, 0, 0);
 }
 .computa-combinator-image04 {
@@ -800,7 +794,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computa-combinator-text072 {
+.computa-combinator-text073 {
   font-size: 54px;
   font-weight: initial;
   line-height: 65px;
@@ -812,7 +806,7 @@
   max-width: 900px;
   line-height: 54px;
 }
-.computa-combinator-form1 {
+.computa-combinator-form {
   width: 585px;
   height: 231px;
   display: flex;
@@ -842,7 +836,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.computa-combinator-button1 {
+.computa-combinator-button {
   color: rgb(255, 255, 255);
   font-size: 24px;
   padding-top: var(--dl-space-space-unit);
@@ -911,12 +905,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.computa-combinator-text077 {
+.computa-combinator-text078 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.computa-combinator-text078 {
+.computa-combinator-text079 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -930,12 +924,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.computa-combinator-text079 {
+.computa-combinator-text080 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.computa-combinator-text080 {
+.computa-combinator-text081 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -949,12 +943,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.computa-combinator-text081 {
+.computa-combinator-text082 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.computa-combinator-text082 {
+.computa-combinator-text083 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -968,12 +962,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.computa-combinator-text083 {
+.computa-combinator-text084 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.computa-combinator-text084 {
+.computa-combinator-text085 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -1081,7 +1075,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.computa-combinator-text091 {
+.computa-combinator-text092 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   max-width: 1000px;
@@ -1108,13 +1102,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computa-combinator-text097 {
+.computa-combinator-text098 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.computa-combinator-text100 {
+.computa-combinator-text101 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1127,13 +1121,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computa-combinator-text101 {
+.computa-combinator-text102 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.computa-combinator-text104 {
+.computa-combinator-text105 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1145,13 +1139,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computa-combinator-text105 {
+.computa-combinator-text106 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.computa-combinator-text108 {
+.computa-combinator-text109 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1163,13 +1157,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computa-combinator-text111 {
+.computa-combinator-text112 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.computa-combinator-text112 {
+.computa-combinator-text113 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1180,7 +1174,7 @@
   font-size: 30px;
   line-height: 54px;
 }
-.computa-combinator-button2 {
+.computa-combinator-button1 {
   color: rgb(39, 39, 45);
   font-size: 24px;
   line-height: 30px;
@@ -1798,7 +1792,7 @@
     gap: var(--dl-space-space-oneandhalfunits);
     align-items: center;
   }
-  .computa-combinator-text072 {
+  .computa-combinator-text073 {
     font-size: 32px;
     text-align: center;
     line-height: 38px;
@@ -1807,7 +1801,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .computa-combinator-text076 {
+  .computa-combinator-text077 {
     font-size: 16px;
   }
   .computa-combinator-image05 {
@@ -1835,35 +1829,35 @@
     flex-direction: column;
     justify-content: center;
   }
-  .computa-combinator-text077 {
+  .computa-combinator-text078 {
     font-size: 32px;
     line-height: 38px;
-  }
-  .computa-combinator-text078 {
-    font-size: 16px;
-    line-height: 24px;
   }
   .computa-combinator-text079 {
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 16px;
+    line-height: 24px;
   }
   .computa-combinator-text080 {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 32px;
+    line-height: 38px;
   }
   .computa-combinator-text081 {
-    font-size: 32px;
-    line-height: 38px;
-  }
-  .computa-combinator-text082 {
     font-size: 16px;
     line-height: 24px;
   }
-  .computa-combinator-text083 {
+  .computa-combinator-text082 {
     font-size: 32px;
     line-height: 38px;
   }
+  .computa-combinator-text083 {
+    font-size: 16px;
+    line-height: 24px;
+  }
   .computa-combinator-text084 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .computa-combinator-text085 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -1917,7 +1911,7 @@
     gap: var(--dl-space-space-threeunits);
     padding-top: 0px;
   }
-  .computa-combinator-text091 {
+  .computa-combinator-text092 {
     font-size: 32px;
     line-height: 38px;
   }
@@ -1925,7 +1919,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .computa-combinator-text094 {
+  .computa-combinator-text095 {
     font-size: 16px;
     line-height: 28px;
   }
@@ -1936,44 +1930,44 @@
   .computa-combinator-section2 {
     gap: var(--dl-space-space-halfunit);
   }
-  .computa-combinator-text097 {
+  .computa-combinator-text098 {
     font-size: 24px;
     line-height: 30px;
   }
-  .computa-combinator-text100 {
+  .computa-combinator-text101 {
     font-size: 16px;
     line-height: 24px;
   }
   .computa-combinator-section3 {
     gap: var(--dl-space-space-halfunit);
   }
-  .computa-combinator-text101 {
+  .computa-combinator-text102 {
     font-size: 24px;
     line-height: 30px;
   }
-  .computa-combinator-text104 {
+  .computa-combinator-text105 {
     font-size: 16px;
     line-height: 24px;
   }
   .computa-combinator-section4 {
     gap: var(--dl-space-space-halfunit);
   }
-  .computa-combinator-text105 {
+  .computa-combinator-text106 {
     font-size: 24px;
     line-height: 30px;
   }
-  .computa-combinator-text108 {
+  .computa-combinator-text109 {
     font-size: 16px;
     line-height: 24px;
   }
   .computa-combinator-section5 {
     gap: var(--dl-space-space-halfunit);
   }
-  .computa-combinator-text111 {
+  .computa-combinator-text112 {
     font-size: 24px;
     line-height: 30px;
   }
-  .computa-combinator-text112 {
+  .computa-combinator-text113 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -1981,7 +1975,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .computa-combinator-text115 {
+  .computa-combinator-text116 {
     font-size: 16px;
     line-height: 20px;
   }

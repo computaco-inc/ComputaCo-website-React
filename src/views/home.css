@@ -724,14 +724,7 @@
   max-width: 900px;
   line-height: 54px;
 }
-.home-form {
-  width: 585px;
-  height: 69px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.home-button {
+.home-link {
   color: rgb(255, 255, 255);
   font-size: 24px;
   padding-top: var(--dl-space-space-unit);
@@ -740,6 +733,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
   text-transform: lowercase;
+  text-decoration: none;
   background-color: rgb(0, 0, 0);
 }
 .home-image4 {
@@ -773,7 +767,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text54 {
+.home-text55 {
   font-size: 54px;
   font-weight: initial;
   line-height: 65px;
@@ -785,7 +779,7 @@
   max-width: 900px;
   line-height: 54px;
 }
-.home-form1 {
+.home-form {
   width: 585px;
   height: 231px;
   display: flex;
@@ -815,7 +809,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.home-button1 {
+.home-button {
   color: rgb(255, 255, 255);
   font-size: 24px;
   padding-top: var(--dl-space-space-unit);
@@ -889,12 +883,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text59 {
+.home-text60 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.home-text60 {
+.home-text61 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -908,12 +902,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text61 {
+.home-text62 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.home-text62 {
+.home-text63 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -927,12 +921,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text63 {
+.home-text64 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.home-text64 {
+.home-text65 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -946,12 +940,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text65 {
+.home-text66 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.home-text66 {
+.home-text67 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -1044,7 +1038,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text67 {
+.home-text68 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   max-width: 1000px;
@@ -1071,13 +1065,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text73 {
+.home-text74 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.home-text76 {
+.home-text77 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1090,13 +1084,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text77 {
+.home-text78 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.home-text80 {
+.home-text81 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1108,13 +1102,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text81 {
+.home-text82 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.home-text84 {
+.home-text85 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1126,13 +1120,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text87 {
+.home-text88 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.home-text88 {
+.home-text89 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1143,7 +1137,7 @@
   font-size: 30px;
   line-height: 54px;
 }
-.home-button2 {
+.home-button1 {
   color: rgb(39, 39, 45);
   font-size: 24px;
   line-height: 30px;
@@ -1519,7 +1513,7 @@
     gap: var(--dl-space-space-oneandhalfunits);
     align-items: center;
   }
-  .home-text54 {
+  .home-text55 {
     font-size: 32px;
     text-align: center;
     line-height: 38px;
@@ -1528,7 +1522,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .home-text58 {
+  .home-text59 {
     font-size: 16px;
   }
   .home-image5 {
@@ -1559,35 +1553,35 @@
     flex-direction: column;
     justify-content: center;
   }
-  .home-text59 {
+  .home-text60 {
     font-size: 32px;
     line-height: 38px;
-  }
-  .home-text60 {
-    font-size: 16px;
-    line-height: 24px;
   }
   .home-text61 {
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 16px;
+    line-height: 24px;
   }
   .home-text62 {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 32px;
+    line-height: 38px;
   }
   .home-text63 {
-    font-size: 32px;
-    line-height: 38px;
-  }
-  .home-text64 {
     font-size: 16px;
     line-height: 24px;
   }
-  .home-text65 {
+  .home-text64 {
     font-size: 32px;
     line-height: 38px;
   }
+  .home-text65 {
+    font-size: 16px;
+    line-height: 24px;
+  }
   .home-text66 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .home-text67 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -1632,7 +1626,7 @@
     gap: var(--dl-space-space-threeunits);
     padding-top: 0px;
   }
-  .home-text67 {
+  .home-text68 {
     font-size: 32px;
     line-height: 38px;
   }
@@ -1640,7 +1634,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .home-text70 {
+  .home-text71 {
     font-size: 16px;
     line-height: 28px;
   }
@@ -1651,44 +1645,44 @@
   .home-section2 {
     gap: var(--dl-space-space-halfunit);
   }
-  .home-text73 {
+  .home-text74 {
     font-size: 24px;
     line-height: 30px;
   }
-  .home-text76 {
+  .home-text77 {
     font-size: 16px;
     line-height: 24px;
   }
   .home-section3 {
     gap: var(--dl-space-space-halfunit);
   }
-  .home-text77 {
+  .home-text78 {
     font-size: 24px;
     line-height: 30px;
   }
-  .home-text80 {
+  .home-text81 {
     font-size: 16px;
     line-height: 24px;
   }
   .home-section4 {
     gap: var(--dl-space-space-halfunit);
   }
-  .home-text81 {
+  .home-text82 {
     font-size: 24px;
     line-height: 30px;
   }
-  .home-text84 {
+  .home-text85 {
     font-size: 16px;
     line-height: 24px;
   }
   .home-section5 {
     gap: var(--dl-space-space-halfunit);
   }
-  .home-text87 {
+  .home-text88 {
     font-size: 24px;
     line-height: 30px;
   }
-  .home-text88 {
+  .home-text89 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -1696,7 +1690,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .home-text91 {
+  .home-text92 {
     font-size: 16px;
     line-height: 20px;
   }

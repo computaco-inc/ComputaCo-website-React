@@ -435,18 +435,17 @@ const ComputaCode = (props) => {
               ComputaCode, we&apos;ll bring your digital dreams to life
               together.
             </span>
-            <form className="computa-code-form">
-              <button className="computa-code-button button">
-                <a
-                  href="https://cdn.forms-content.sg-form.com/10525b5f-0547-11ee-ae98-e2f0e34d8c7e"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <span>join the early access group</span>
-                  <br></br>
-                </a>
-              </button>
-            </form>
+            <a
+              href="https://cdn.forms-content.sg-form.com/10525b5f-0547-11ee-ae98-e2f0e34d8c7e"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="computa-code-link button"
+            >
+              <span>
+                <span>join the early access group</span>
+                <br></br>
+              </span>
+            </a>
           </div>
           <img
             alt="image"
@@ -458,7 +457,7 @@ const ComputaCode = (props) => {
       <div className="computa-code-book1">
         <div className="computa-code-content2">
           <div className="computa-code-left1">
-            <h2 className="computa-code-text065">
+            <h2 className="computa-code-text066">
               <span>Early Access</span>
               <br></br>
             </h2>
@@ -467,7 +466,7 @@ const ComputaCode = (props) => {
               little while longer. And use the time to prepare yourself for the
               greatest digital transformation humans have ever experienced!
             </span>
-            <form className="computa-code-form1">
+            <form className="computa-code-form">
               <input
                 type="text"
                 placeholder="email"
@@ -481,8 +480,8 @@ const ComputaCode = (props) => {
                 </span>
               </div>
               <div className="computa-code-container3"></div>
-              <button className="computa-code-button1 button">
-                <span className="computa-code-text069">Join the Waitlist</span>
+              <button className="computa-code-button button">
+                <span className="computa-code-text070">Join the Waitlist</span>
               </button>
             </form>
           </div>
@@ -502,22 +501,22 @@ const ComputaCode = (props) => {
           </div>
           <div className="computa-code-statistics">
             <div className="computa-code-statistic">
-              <span className="computa-code-text070">25</span>
-              <span className="computa-code-text071">Years of experience</span>
+              <span className="computa-code-text071">25</span>
+              <span className="computa-code-text072">Years of experience</span>
             </div>
             <div className="computa-code-statistic1">
-              <span className="computa-code-text072">40+</span>
-              <span className="computa-code-text073">
+              <span className="computa-code-text073">40+</span>
+              <span className="computa-code-text074">
                 Years of Experts on board
               </span>
             </div>
             <div className="computa-code-statistic2">
-              <span className="computa-code-text074">300+</span>
-              <span className="computa-code-text075">Finished projects</span>
+              <span className="computa-code-text075">300+</span>
+              <span className="computa-code-text076">Finished projects</span>
             </div>
             <div className="computa-code-statistic3">
-              <span className="computa-code-text076">3</span>
-              <span className="computa-code-text077">Offices worldwide</span>
+              <span className="computa-code-text077">3</span>
+              <span className="computa-code-text078">Offices worldwide</span>
             </div>
           </div>
           <div className="computa-code-dna">
@@ -596,12 +595,12 @@ const ComputaCode = (props) => {
           </div>
           <div className="computa-code-recruit">
             <div className="computa-code-container4">
-              <h2 className="computa-code-text084">
+              <h2 className="computa-code-text085">
                 <span>Calling all intelligences</span>
                 <br></br>
               </h2>
               <span className="computa-code-description19">
-                <span className="computa-code-text087">
+                <span className="computa-code-text088">
                   We hold ourselves to high standards. Specifically, we&apos;re
                   looking for engineers who are
                 </span>
@@ -611,31 +610,31 @@ const ComputaCode = (props) => {
             </div>
             <div className="computa-code-sections">
               <div className="computa-code-section2">
-                <span className="computa-code-text090">
+                <span className="computa-code-text091">
                   <span>trailblazers</span>
                   <br></br>
                 </span>
-                <span className="computa-code-text093">
+                <span className="computa-code-text094">
                   ones constantly pushing the envelope, who aren&apos;t afraid
                   to challenge the status quo, never settling for &quot;good
                   enough&quot;
                 </span>
               </div>
               <div className="computa-code-section3">
-                <span className="computa-code-text094">
+                <span className="computa-code-text095">
                   <span>team players</span>
                   <br></br>
                 </span>
-                <span className="computa-code-text097">
+                <span className="computa-code-text098">
                   authentic, humble, empathetic, kind individuals
                 </span>
               </div>
               <div className="computa-code-section4">
-                <span className="computa-code-text098">
+                <span className="computa-code-text099">
                   <span>automators</span>
                   <br></br>
                 </span>
-                <span className="computa-code-text101">
+                <span className="computa-code-text102">
                   <span>
                     someone who is resourceful with their intelligence and time,
                     who delegates extensively to AI
@@ -644,8 +643,8 @@ const ComputaCode = (props) => {
                 </span>
               </div>
               <div className="computa-code-section5">
-                <span className="computa-code-text104">learners</span>
-                <span className="computa-code-text105">
+                <span className="computa-code-text105">learners</span>
+                <span className="computa-code-text106">
                   someone who actually reads the papers, doesn&apos;t rely on
                   &quot;the way it was done last month&quot;
                 </span>
@@ -655,8 +654,8 @@ const ComputaCode = (props) => {
               <span>Is ComputaCo is your calling?</span>
               <br></br>
             </span>
-            <button className="computa-code-button2 button">
-              <span className="computa-code-text108">
+            <button className="computa-code-button1 button">
+              <span className="computa-code-text109">
                 <span>join us</span>
                 <br></br>
               </span>

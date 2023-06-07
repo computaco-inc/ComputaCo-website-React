@@ -354,18 +354,17 @@ const Home = (props) => {
               little while longer. And use the time to prepare yourself for the
               greatest digital transformation humans have ever experienced!
             </span>
-            <form className="home-form">
-              <button className="home-button button">
-                <a
-                  href="https://cdn.forms-content.sg-form.com/10525b5f-0547-11ee-ae98-e2f0e34d8c7e"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <span>join the early access group</span>
-                  <br></br>
-                </a>
-              </button>
-            </form>
+            <a
+              href="https://cdn.forms-content.sg-form.com/10525b5f-0547-11ee-ae98-e2f0e34d8c7e"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link button"
+            >
+              <span>
+                <span>join the early access group</span>
+                <br></br>
+              </span>
+            </a>
           </div>
           <img alt="image" src="/computer.svg" className="home-image4" />
         </div>
@@ -373,7 +372,7 @@ const Home = (props) => {
       <div className="home-book1">
         <div className="home-content2">
           <div className="home-left1">
-            <h2 className="home-text54">
+            <h2 className="home-text55">
               <span>Early Access</span>
               <br></br>
             </h2>
@@ -382,7 +381,7 @@ const Home = (props) => {
               little while longer. And use the time to prepare yourself for the
               greatest digital transformation humans have ever experienced!
             </span>
-            <form className="home-form1">
+            <form className="home-form">
               <input
                 type="text"
                 placeholder="email"
@@ -396,8 +395,8 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-container3"></div>
-              <button className="home-button1 button">
-                <span className="home-text58">Join the Waitlist</span>
+              <button className="home-button button">
+                <span className="home-text59">Join the Waitlist</span>
               </button>
             </form>
           </div>
@@ -414,20 +413,20 @@ const Home = (props) => {
           </div>
           <div className="home-statistics">
             <div className="home-statistic">
-              <span className="home-text59">25</span>
-              <span className="home-text60">Years of experience</span>
+              <span className="home-text60">25</span>
+              <span className="home-text61">Years of experience</span>
             </div>
             <div className="home-statistic1">
-              <span className="home-text61">40+</span>
-              <span className="home-text62">Years of Experts on board</span>
+              <span className="home-text62">40+</span>
+              <span className="home-text63">Years of Experts on board</span>
             </div>
             <div className="home-statistic2">
-              <span className="home-text63">300+</span>
-              <span className="home-text64">Finished projects</span>
+              <span className="home-text64">300+</span>
+              <span className="home-text65">Finished projects</span>
             </div>
             <div className="home-statistic3">
-              <span className="home-text65">3</span>
-              <span className="home-text66">Offices worldwide</span>
+              <span className="home-text66">3</span>
+              <span className="home-text67">Offices worldwide</span>
             </div>
           </div>
           <div className="home-dna">
@@ -494,12 +493,12 @@ const Home = (props) => {
           </div>
           <div className="home-recruit">
             <div className="home-container4">
-              <h2 className="home-text67">
+              <h2 className="home-text68">
                 <span>Calling all intelligences</span>
                 <br></br>
               </h2>
               <span className="home-description13">
-                <span className="home-text70">
+                <span className="home-text71">
                   We hold ourselves to high standards. Specifically, we&apos;re
                   looking for engineers who are
                 </span>
@@ -509,31 +508,31 @@ const Home = (props) => {
             </div>
             <div className="home-sections">
               <div className="home-section2">
-                <span className="home-text73">
+                <span className="home-text74">
                   <span>trailblazers</span>
                   <br></br>
                 </span>
-                <span className="home-text76">
+                <span className="home-text77">
                   ones constantly pushing the envelope, who aren&apos;t afraid
                   to challenge the status quo, never settling for &quot;good
                   enough&quot;
                 </span>
               </div>
               <div className="home-section3">
-                <span className="home-text77">
+                <span className="home-text78">
                   <span>team players</span>
                   <br></br>
                 </span>
-                <span className="home-text80">
+                <span className="home-text81">
                   authentic, humble, empathetic, kind individuals
                 </span>
               </div>
               <div className="home-section4">
-                <span className="home-text81">
+                <span className="home-text82">
                   <span>automators</span>
                   <br></br>
                 </span>
-                <span className="home-text84">
+                <span className="home-text85">
                   <span>
                     someone who is resourceful with their intelligence and time,
                     who delegates extensively to AI
@@ -542,8 +541,8 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-section5">
-                <span className="home-text87">learners</span>
-                <span className="home-text88">
+                <span className="home-text88">learners</span>
+                <span className="home-text89">
                   someone who actually reads the papers, doesn&apos;t rely on
                   &quot;the way it was done last month&quot;
                 </span>
@@ -553,8 +552,8 @@ const Home = (props) => {
               <span>Is ComputaCo is your calling?</span>
               <br></br>
             </span>
-            <button className="home-button2 button">
-              <span className="home-text91">
+            <button className="home-button1 button">
+              <span className="home-text92">
                 <span>join us</span>
                 <br></br>
               </span>

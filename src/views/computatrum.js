@@ -411,18 +411,17 @@ const Computatrum = (props) => {
               Experience the evolution of human-computer interaction firsthand
               and join us in shaping the future of computation.
             </span>
-            <form className="computatrum-form">
-              <button className="computatrum-button button">
-                <a
-                  href="https://cdn.forms-content.sg-form.com/10525b5f-0547-11ee-ae98-e2f0e34d8c7e"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <span>join the early access group</span>
-                  <br></br>
-                </a>
-              </button>
-            </form>
+            <a
+              href="https://cdn.forms-content.sg-form.com/10525b5f-0547-11ee-ae98-e2f0e34d8c7e"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="computatrum-link button"
+            >
+              <span>
+                <span>join the early access group</span>
+                <br></br>
+              </span>
+            </a>
           </div>
           <img
             alt="image"
@@ -434,7 +433,7 @@ const Computatrum = (props) => {
       <div className="computatrum-book1">
         <div className="computatrum-content2">
           <div className="computatrum-left1">
-            <h2 className="computatrum-text063">
+            <h2 className="computatrum-text064">
               <span>Early Access</span>
               <br></br>
             </h2>
@@ -443,7 +442,7 @@ const Computatrum = (props) => {
               little while longer. And use the time to prepare yourself for the
               greatest digital transformation humans have ever experienced!
             </span>
-            <form className="computatrum-form1">
+            <form className="computatrum-form">
               <input
                 type="text"
                 placeholder="email"
@@ -457,8 +456,8 @@ const Computatrum = (props) => {
                 </span>
               </div>
               <div className="computatrum-container3"></div>
-              <button className="computatrum-button1 button">
-                <span className="computatrum-text067">Join the Waitlist</span>
+              <button className="computatrum-button button">
+                <span className="computatrum-text068">Join the Waitlist</span>
               </button>
             </form>
           </div>
@@ -478,22 +477,22 @@ const Computatrum = (props) => {
           </div>
           <div className="computatrum-statistics">
             <div className="computatrum-statistic">
-              <span className="computatrum-text068">25</span>
-              <span className="computatrum-text069">Years of experience</span>
+              <span className="computatrum-text069">25</span>
+              <span className="computatrum-text070">Years of experience</span>
             </div>
             <div className="computatrum-statistic1">
-              <span className="computatrum-text070">40+</span>
-              <span className="computatrum-text071">
+              <span className="computatrum-text071">40+</span>
+              <span className="computatrum-text072">
                 Years of Experts on board
               </span>
             </div>
             <div className="computatrum-statistic2">
-              <span className="computatrum-text072">300+</span>
-              <span className="computatrum-text073">Finished projects</span>
+              <span className="computatrum-text073">300+</span>
+              <span className="computatrum-text074">Finished projects</span>
             </div>
             <div className="computatrum-statistic3">
-              <span className="computatrum-text074">3</span>
-              <span className="computatrum-text075">Offices worldwide</span>
+              <span className="computatrum-text075">3</span>
+              <span className="computatrum-text076">Offices worldwide</span>
             </div>
           </div>
           <div className="computatrum-dna">
@@ -572,12 +571,12 @@ const Computatrum = (props) => {
           </div>
           <div className="computatrum-recruit">
             <div className="computatrum-container4">
-              <h2 className="computatrum-text082">
+              <h2 className="computatrum-text083">
                 <span>Calling all intelligences</span>
                 <br></br>
               </h2>
               <span className="computatrum-description15">
-                <span className="computatrum-text085">
+                <span className="computatrum-text086">
                   We hold ourselves to high standards. Specifically, we&apos;re
                   looking for engineers who are
                 </span>
@@ -587,31 +586,31 @@ const Computatrum = (props) => {
             </div>
             <div className="computatrum-sections">
               <div className="computatrum-section2">
-                <span className="computatrum-text088">
+                <span className="computatrum-text089">
                   <span>trailblazers</span>
                   <br></br>
                 </span>
-                <span className="computatrum-text091">
+                <span className="computatrum-text092">
                   ones constantly pushing the envelope, who aren&apos;t afraid
                   to challenge the status quo, never settling for &quot;good
                   enough&quot;
                 </span>
               </div>
               <div className="computatrum-section3">
-                <span className="computatrum-text092">
+                <span className="computatrum-text093">
                   <span>team players</span>
                   <br></br>
                 </span>
-                <span className="computatrum-text095">
+                <span className="computatrum-text096">
                   authentic, humble, empathetic, kind individuals
                 </span>
               </div>
               <div className="computatrum-section4">
-                <span className="computatrum-text096">
+                <span className="computatrum-text097">
                   <span>automators</span>
                   <br></br>
                 </span>
-                <span className="computatrum-text099">
+                <span className="computatrum-text100">
                   <span>
                     someone who is resourceful with their intelligence and time,
                     who delegates extensively to AI
@@ -620,8 +619,8 @@ const Computatrum = (props) => {
                 </span>
               </div>
               <div className="computatrum-section5">
-                <span className="computatrum-text102">learners</span>
-                <span className="computatrum-text103">
+                <span className="computatrum-text103">learners</span>
+                <span className="computatrum-text104">
                   someone who actually reads the papers, doesn&apos;t rely on
                   &quot;the way it was done last month&quot;
                 </span>
@@ -631,8 +630,8 @@ const Computatrum = (props) => {
               <span>Is ComputaCo is your calling?</span>
               <br></br>
             </span>
-            <button className="computatrum-button2 button">
-              <span className="computatrum-text106">
+            <button className="computatrum-button1 button">
+              <span className="computatrum-text107">
                 <span>join us</span>
                 <br></br>
               </span>

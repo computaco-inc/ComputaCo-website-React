@@ -796,14 +796,7 @@
   max-width: 900px;
   line-height: 54px;
 }
-.computa-code-form {
-  width: 585px;
-  height: 69px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.computa-code-button {
+.computa-code-link {
   color: rgb(255, 255, 255);
   font-size: 24px;
   padding-top: var(--dl-space-space-unit);
@@ -812,6 +805,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
   text-transform: lowercase;
+  text-decoration: none;
   background-color: rgb(0, 0, 0);
 }
 .computa-code-image04 {
@@ -845,7 +839,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computa-code-text065 {
+.computa-code-text066 {
   font-size: 54px;
   font-weight: initial;
   line-height: 65px;
@@ -857,7 +851,7 @@
   max-width: 900px;
   line-height: 54px;
 }
-.computa-code-form1 {
+.computa-code-form {
   width: 585px;
   height: 231px;
   display: flex;
@@ -887,7 +881,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.computa-code-button1 {
+.computa-code-button {
   color: rgb(255, 255, 255);
   font-size: 24px;
   padding-top: var(--dl-space-space-unit);
@@ -956,12 +950,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.computa-code-text070 {
+.computa-code-text071 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.computa-code-text071 {
+.computa-code-text072 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -975,12 +969,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.computa-code-text072 {
+.computa-code-text073 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.computa-code-text073 {
+.computa-code-text074 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -994,12 +988,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.computa-code-text074 {
+.computa-code-text075 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.computa-code-text075 {
+.computa-code-text076 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -1013,12 +1007,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.computa-code-text076 {
+.computa-code-text077 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   line-height: 65px;
 }
-.computa-code-text077 {
+.computa-code-text078 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: center;
@@ -1126,7 +1120,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.computa-code-text084 {
+.computa-code-text085 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   max-width: 1000px;
@@ -1153,13 +1147,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computa-code-text090 {
+.computa-code-text091 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.computa-code-text093 {
+.computa-code-text094 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1172,13 +1166,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computa-code-text094 {
+.computa-code-text095 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.computa-code-text097 {
+.computa-code-text098 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1190,13 +1184,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computa-code-text098 {
+.computa-code-text099 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.computa-code-text101 {
+.computa-code-text102 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1208,13 +1202,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.computa-code-text104 {
+.computa-code-text105 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   max-width: 1000px;
   line-height: 36px;
 }
-.computa-code-text105 {
+.computa-code-text106 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   max-width: 1000px;
@@ -1225,7 +1219,7 @@
   font-size: 30px;
   line-height: 54px;
 }
-.computa-code-button2 {
+.computa-code-button1 {
   color: rgb(39, 39, 45);
   font-size: 24px;
   line-height: 30px;
@@ -1867,7 +1861,7 @@
     gap: var(--dl-space-space-oneandhalfunits);
     align-items: center;
   }
-  .computa-code-text065 {
+  .computa-code-text066 {
     font-size: 32px;
     text-align: center;
     line-height: 38px;
@@ -1876,7 +1870,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .computa-code-text069 {
+  .computa-code-text070 {
     font-size: 16px;
   }
   .computa-code-image05 {
@@ -1904,35 +1898,35 @@
     flex-direction: column;
     justify-content: center;
   }
-  .computa-code-text070 {
+  .computa-code-text071 {
     font-size: 32px;
     line-height: 38px;
-  }
-  .computa-code-text071 {
-    font-size: 16px;
-    line-height: 24px;
   }
   .computa-code-text072 {
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 16px;
+    line-height: 24px;
   }
   .computa-code-text073 {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 32px;
+    line-height: 38px;
   }
   .computa-code-text074 {
-    font-size: 32px;
-    line-height: 38px;
-  }
-  .computa-code-text075 {
     font-size: 16px;
     line-height: 24px;
   }
-  .computa-code-text076 {
+  .computa-code-text075 {
     font-size: 32px;
     line-height: 38px;
   }
+  .computa-code-text076 {
+    font-size: 16px;
+    line-height: 24px;
+  }
   .computa-code-text077 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .computa-code-text078 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -1986,7 +1980,7 @@
     gap: var(--dl-space-space-threeunits);
     padding-top: 0px;
   }
-  .computa-code-text084 {
+  .computa-code-text085 {
     font-size: 32px;
     line-height: 38px;
   }
@@ -1994,7 +1988,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .computa-code-text087 {
+  .computa-code-text088 {
     font-size: 16px;
     line-height: 28px;
   }
@@ -2005,44 +1999,44 @@
   .computa-code-section2 {
     gap: var(--dl-space-space-halfunit);
   }
-  .computa-code-text090 {
+  .computa-code-text091 {
     font-size: 24px;
     line-height: 30px;
   }
-  .computa-code-text093 {
+  .computa-code-text094 {
     font-size: 16px;
     line-height: 24px;
   }
   .computa-code-section3 {
     gap: var(--dl-space-space-halfunit);
   }
-  .computa-code-text094 {
+  .computa-code-text095 {
     font-size: 24px;
     line-height: 30px;
   }
-  .computa-code-text097 {
+  .computa-code-text098 {
     font-size: 16px;
     line-height: 24px;
   }
   .computa-code-section4 {
     gap: var(--dl-space-space-halfunit);
   }
-  .computa-code-text098 {
+  .computa-code-text099 {
     font-size: 24px;
     line-height: 30px;
   }
-  .computa-code-text101 {
+  .computa-code-text102 {
     font-size: 16px;
     line-height: 24px;
   }
   .computa-code-section5 {
     gap: var(--dl-space-space-halfunit);
   }
-  .computa-code-text104 {
+  .computa-code-text105 {
     font-size: 24px;
     line-height: 30px;
   }
-  .computa-code-text105 {
+  .computa-code-text106 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -2050,7 +2044,7 @@
     font-size: 16px;
     line-height: 28px;
   }
-  .computa-code-text108 {
+  .computa-code-text109 {
     font-size: 16px;
     line-height: 20px;
   }
