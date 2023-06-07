@@ -166,6 +166,15 @@
   flex-direction: column;
   justify-content: center;
 }
+.navbar-link1 {
+  text-decoration: none;
+}
+.navbar-link2 {
+  text-decoration: none;
+}
+.navbar-link3 {
+  text-decoration: none;
+}
 @media(max-width: 991px) {
   .navbar-navbar-interactive {
     gap: var(--dl-space-space-fourunits);
@@ -226,5 +235,14 @@
   }
   .navbar-mobile-menu {
     padding: 16px;
+  }
+  .navbar-computacode {
+    display: none;
+  }
+  .navbar-computatrum {
+    display: none;
+  }
+  .navbar-computacombinator {
+    display: none;
   }
 }

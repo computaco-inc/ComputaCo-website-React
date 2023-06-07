@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -76,9 +77,24 @@ const Navbar = (props) => {
               className="navbar-middle"
             >
               <div className="navbar-links">
-                <span className="navLink">{props.computacode}</span>
-                <span className="navLink">{props.computatrum}</span>
-                <span className="navLink">{props.computacombinator}</span>
+                <span className="navLink navbar-computacode">
+                  {props.computacode1}
+                </span>
+                <span className="navLink navbar-computatrum">
+                  {props.computatrum}
+                </span>
+                <span className="navLink navbar-computacombinator">
+                  {props.computacombinator}
+                </span>
+                <Link to="/computa-code" className="navbar-link1 navLink">
+                  {props.Link}
+                </Link>
+                <Link to="/computatrum" className="navbar-link2 navLink">
+                  {props.Link1}
+                </Link>
+                <Link to="/computa-combinator" className="navbar-link3 navLink">
+                  {props.Link2}
+                </Link>
               </div>
             </nav>
           </div>
@@ -89,41 +105,61 @@ const Navbar = (props) => {
 }
 
 Navbar.defaultProps = {
-  text: 'ComputaCo',
-  text1: 'work with us',
-  image_src: '/hamburger.svg',
-  image_alt: 'image',
-  text2: 'ComputaCo',
-  computacode: 'ComputaCode',
-  computatrum: 'Computratrum',
+  Link1: 'Computatrum',
   computacombinator: 'ComputaCombinator',
-  text3: 'work with us',
+  text9: 'Link',
   text4: 'Sign in / up',
+  link_text3: 'https://example.com',
+  Link: 'ComputaCode',
+  text1: 'work with us',
+  computacode: 'ComputaCode',
+  text2: 'ComputaCo',
   image_src1: '/hamburger.svg',
-  image_alt1: 'image',
+  text: 'ComputaCo',
+  computatrum: 'Computratrum',
   text5: 'Link',
+  text7: 'Link',
+  text3: 'work with us',
+  Link2: 'ComputaCombinator',
+  link_text4: 'https://example.com',
+  link_text2: 'https://example.com',
+  image_src: '/hamburger.svg',
   link_text: 'https://example.com',
-  text6: 'ComputaCo',
   link_text1: 'https://example.com',
+  image_alt: 'image',
+  text6: 'ComputaCo',
+  text8: 'Link',
+  image_alt1: 'image',
+  computacode1: 'ComputaCode',
 }
 
 Navbar.propTypes = {
-  text: PropTypes.string,
-  text1: PropTypes.string,
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
-  text2: PropTypes.string,
-  computacode: PropTypes.string,
-  computatrum: PropTypes.string,
+  Link1: PropTypes.string,
   computacombinator: PropTypes.string,
-  text3: PropTypes.string,
+  text9: PropTypes.string,
   text4: PropTypes.string,
+  link_text3: PropTypes.string,
+  Link: PropTypes.string,
+  text1: PropTypes.string,
+  computacode: PropTypes.string,
+  text2: PropTypes.string,
   image_src1: PropTypes.string,
-  image_alt1: PropTypes.string,
+  text: PropTypes.string,
+  computatrum: PropTypes.string,
   text5: PropTypes.string,
+  text7: PropTypes.string,
+  text3: PropTypes.string,
+  Link2: PropTypes.string,
+  link_text4: PropTypes.string,
+  link_text2: PropTypes.string,
+  image_src: PropTypes.string,
   link_text: PropTypes.string,
-  text6: PropTypes.string,
   link_text1: PropTypes.string,
+  image_alt: PropTypes.string,
+  text6: PropTypes.string,
+  text8: PropTypes.string,
+  image_alt1: PropTypes.string,
+  computacode1: PropTypes.string,
 }
 
 export default Navbar
