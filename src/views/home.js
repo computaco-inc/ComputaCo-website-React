@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 
 import NavLinks from '../components/nav-links'
 import Testimonial from '../components/testimonial'
+import Footer from '../components/footer'
 import './home.css'
 
 const Home = (props) => {
@@ -41,10 +42,7 @@ const Home = (props) => {
                 <NavLinks></NavLinks>
                 <div className="home-button">
                   <button className="home-work-with-us button">
-                    <span className="home-text001">
-                      <span>Join the Waitlist</span>
-                      <br></br>
-                    </span>
+                    <span className="home-text001">Sign in / up</span>
                     <img
                       alt="image"
                       src="/hamburger.svg"
@@ -57,7 +55,7 @@ const Home = (props) => {
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
             <button className="home-work-with-us1 button">
-              <span className="home-text004">work with us</span>
+              <span className="home-text002">work with us</span>
               <img alt="image" src="/hamburger.svg" className="home-image01" />
             </button>
           </div>
@@ -69,7 +67,7 @@ const Home = (props) => {
             >
               <div className="home-top">
                 <div className="home-branding1">
-                  <span className="home-text005">hola studio</span>
+                  <span className="home-text003">hola studio</span>
                 </div>
                 <div data-thq="thq-close-menu" className="home-menu-close">
                   <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -88,7 +86,7 @@ const Home = (props) => {
                   <span className="navLink">contact</span>
                 </div>
                 <button className="home-work-with-us2 button">
-                  <span className="home-text006">work with us</span>
+                  <span className="home-text004">work with us</span>
                 </button>
               </nav>
             </div>
@@ -97,7 +95,7 @@ const Home = (props) => {
       </div>
       <div className="home-hero">
         <div className="home-header">
-          <h1 className="home-text007">ComputaCo</h1>
+          <h1 className="home-text005">ComputaCo</h1>
           <h2>Redefining Computation. Revolutionizing Tomorrow.</h2>
           <div className="home-container1">
             <img alt="image" src="/mouse.svg" className="home-image02" />
@@ -113,10 +111,10 @@ const Home = (props) => {
       <div className="home-who">
         <div className="home-header1">
           <div className="home-heading">
-            <h2 className="home-text010">
+            <h2 className="home-text008">
               ComputaCo. Redefining Computation. Revolutionizing Tomorrow.
             </h2>
-            <span className="home-text011">
+            <span className="home-text009">
               We aim to redefine the very nature of computation, facilitating
               seamless information exchange between individuals and machines,
               and in the process, unlocking unparalleled levels of productivity
@@ -168,11 +166,11 @@ const Home = (props) => {
                 <span className="home-title">Education</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text012">Perspiciatis</span>
-                <span className="home-text013">Nemo voluptatem</span>
-                <span className="home-text014">Dolore magnam</span>
-                <span className="home-text015">Tempora</span>
-                <span className="home-text016">Reprehenderit qui</span>
+                <span className="home-text010">Perspiciatis</span>
+                <span className="home-text011">Nemo voluptatem</span>
+                <span className="home-text012">Dolore magnam</span>
+                <span className="home-text013">Tempora</span>
+                <span className="home-text014">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item">
@@ -180,11 +178,11 @@ const Home = (props) => {
                 <span className="home-title01">B2B</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text017">Perspiciatis</span>
-                <span className="home-text018">Nemo voluptatem</span>
-                <span className="home-text019">Dolore magnam</span>
-                <span className="home-text020">Tempora</span>
-                <span className="home-text021">Reprehenderit qui</span>
+                <span className="home-text015">Perspiciatis</span>
+                <span className="home-text016">Nemo voluptatem</span>
+                <span className="home-text017">Dolore magnam</span>
+                <span className="home-text018">Tempora</span>
+                <span className="home-text019">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item1">
@@ -198,11 +196,11 @@ const Home = (props) => {
                 data-role="accordion-content"
                 className="accordion-content accordion-content-active"
               >
-                <span className="home-text022">Perspiciatis</span>
-                <span className="home-text023">Nemo voluptatem</span>
-                <span className="home-text024">Dolore magnam</span>
-                <span className="home-text025">Tempora</span>
-                <span className="home-text026">Reprehenderit qui</span>
+                <span className="home-text020">Perspiciatis</span>
+                <span className="home-text021">Nemo voluptatem</span>
+                <span className="home-text022">Dolore magnam</span>
+                <span className="home-text023">Tempora</span>
+                <span className="home-text024">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item2">
@@ -213,11 +211,11 @@ const Home = (props) => {
                 <span className="home-title03">Ecommerce</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text027">Perspiciatis</span>
-                <span className="home-text028">Nemo voluptatem</span>
-                <span className="home-text029">Dolore magnam</span>
-                <span className="home-text030">Tempora</span>
-                <span className="home-text031">Reprehenderit qui</span>
+                <span className="home-text025">Perspiciatis</span>
+                <span className="home-text026">Nemo voluptatem</span>
+                <span className="home-text027">Dolore magnam</span>
+                <span className="home-text028">Tempora</span>
+                <span className="home-text029">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item3">
@@ -228,11 +226,11 @@ const Home = (props) => {
                 <span className="home-title04">Marketing</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text032">Perspiciatis</span>
-                <span className="home-text033">Nemo voluptatem</span>
-                <span className="home-text034">Dolore magnam</span>
-                <span className="home-text035">Tempora</span>
-                <span className="home-text036">Reprehenderit qui</span>
+                <span className="home-text030">Perspiciatis</span>
+                <span className="home-text031">Nemo voluptatem</span>
+                <span className="home-text032">Dolore magnam</span>
+                <span className="home-text033">Tempora</span>
+                <span className="home-text034">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item4">
@@ -243,11 +241,11 @@ const Home = (props) => {
                 <span className="home-title05">SAAS</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text037">Perspiciatis</span>
-                <span className="home-text038">Nemo voluptatem</span>
-                <span className="home-text039">Dolore magnam</span>
-                <span className="home-text040">Tempora</span>
-                <span className="home-text041">Reprehenderit qui</span>
+                <span className="home-text035">Perspiciatis</span>
+                <span className="home-text036">Nemo voluptatem</span>
+                <span className="home-text037">Dolore magnam</span>
+                <span className="home-text038">Tempora</span>
+                <span className="home-text039">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item5">
@@ -258,11 +256,11 @@ const Home = (props) => {
                 <span className="home-title06">Media</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text042">Perspiciatis</span>
-                <span className="home-text043">Nemo voluptatem</span>
-                <span className="home-text044">Dolore magnam</span>
-                <span className="home-text045">Tempora</span>
-                <span className="home-text046">Reprehenderit qui</span>
+                <span className="home-text040">Perspiciatis</span>
+                <span className="home-text041">Nemo voluptatem</span>
+                <span className="home-text042">Dolore magnam</span>
+                <span className="home-text043">Tempora</span>
+                <span className="home-text044">Reprehenderit qui</span>
               </div>
             </div>
             <div data-role="accordion-container" className="home-item6">
@@ -273,11 +271,11 @@ const Home = (props) => {
                 <span className="home-title07">Social</span>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <span className="home-text047">Perspiciatis</span>
-                <span className="home-text048">Nemo voluptatem</span>
-                <span className="home-text049">Dolore magnam</span>
-                <span className="home-text050">Tempora</span>
-                <span className="home-text051">Reprehenderit qui</span>
+                <span className="home-text045">Perspiciatis</span>
+                <span className="home-text046">Nemo voluptatem</span>
+                <span className="home-text047">Dolore magnam</span>
+                <span className="home-text048">Tempora</span>
+                <span className="home-text049">Reprehenderit qui</span>
               </div>
             </div>
           </div>
@@ -365,11 +363,11 @@ const Home = (props) => {
       <div className="home-section">
         <div className="home-case-studies">
           <div className="home-caption4">
-            <span className="home-text052">Roadmap</span>
+            <span className="home-text050">Roadmap</span>
             <div className="home-date-range">
-              <span className="home-text053">JUNE 2023</span>
-              <span className="home-text054">——</span>
-              <span className="home-text055">DEC 2024</span>
+              <span className="home-text051">JUNE 2023</span>
+              <span className="home-text052">——</span>
+              <span className="home-text053">DEC 2024</span>
             </div>
           </div>
         </div>
@@ -384,7 +382,7 @@ const Home = (props) => {
               >
                 <path d="M670.165 737.835l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331l256 256c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
               </svg>
-              <span className="home-text056">——</span>
+              <span className="home-text054">——</span>
               <svg
                 id="quote-next"
                 viewBox="0 0 1024 1024"
@@ -419,13 +417,44 @@ const Home = (props) => {
       <div className="home-book">
         <div className="home-content1">
           <div className="home-left">
-            <h2 className="home-text057">Join the Waitlist</h2>
+            <h2 className="home-text055">
+              <span>Early Access</span>
+              <br></br>
+            </h2>
             <span className="home-description03">
               We&apos;re working as fast as we responsibly can. Hang tight for a
               little while longer. And use the time to prepare yourself for the
               greatest digital transformation humans have ever experienced!
             </span>
             <form className="home-form">
+              <button className="home-button1 button">
+                <a
+                  href="https://cdn.forms-content.sg-form.com/10525b5f-0547-11ee-ae98-e2f0e34d8c7e"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <span>join the early access group</span>
+                  <br></br>
+                </a>
+              </button>
+            </form>
+          </div>
+          <img alt="image" src="/computer.svg" className="home-image06" />
+        </div>
+      </div>
+      <div className="home-book1">
+        <div className="home-content2">
+          <div className="home-left1">
+            <h2 className="home-text060">
+              <span>Early Access</span>
+              <br></br>
+            </h2>
+            <span className="home-description04">
+              We&apos;re working as fast as we responsibly can. Hang tight for a
+              little while longer. And use the time to prepare yourself for the
+              greatest digital transformation humans have ever experienced!
+            </span>
+            <form className="home-form1">
               <input
                 type="text"
                 placeholder="email"
@@ -439,43 +468,43 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-container3"></div>
-              <button className="home-button1 button">
-                <span className="home-text059">Join the Waitlist</span>
+              <button className="home-button2 button">
+                <span className="home-text064">Join the Waitlist</span>
               </button>
             </form>
           </div>
-          <img alt="image" src="/computer.svg" className="home-image06" />
+          <img alt="image" src="/computer.svg" className="home-image07" />
         </div>
       </div>
       <div className="home-section1">
         <div className="home-about-us">
           <div className="home-header3">
             <span className="home-caption6">About us</span>
-            <h2 className="home-description04">
+            <h2 className="home-description05">
               The Future of Computation: Introducing ComputaCo
             </h2>
           </div>
           <div className="home-statistics">
             <div className="home-statistic">
-              <span className="home-text060">25</span>
-              <span className="home-text061">Years of experience</span>
+              <span className="home-text065">25</span>
+              <span className="home-text066">Years of experience</span>
             </div>
             <div className="home-statistic1">
-              <span className="home-text062">40+</span>
-              <span className="home-text063">Years of Experts on board</span>
+              <span className="home-text067">40+</span>
+              <span className="home-text068">Years of Experts on board</span>
             </div>
             <div className="home-statistic2">
-              <span className="home-text064">300+</span>
-              <span className="home-text065">Finished projects</span>
+              <span className="home-text069">300+</span>
+              <span className="home-text070">Finished projects</span>
             </div>
             <div className="home-statistic3">
-              <span className="home-text066">3</span>
-              <span className="home-text067">Offices worldwide</span>
+              <span className="home-text071">3</span>
+              <span className="home-text072">Offices worldwide</span>
             </div>
           </div>
           <div className="home-dna">
             <span className="home-caption7">the vision</span>
-            <span className="home-description05">
+            <span className="home-description06">
               Imagine a world where humans and computers seamlessly interact at
               every level of abstraction. A world where information zips back
               and forth effortlessly between you and your machines—from thoughts
@@ -484,17 +513,17 @@ const Home = (props) => {
               tasks before you even spoke? What if each machine could be
               tailored to become a digital replica of your unique personality?
             </span>
-            <span className="home-description06">
+            <span className="home-description07">
               Welcome to the vision of ComputaCo.
             </span>
-            <span className="home-description07">
+            <span className="home-description08">
               At ComputaCo, we&apos;re not just imagining this world—we&apos;re
               building it. Our mission is to redefine the very nature of
               computation, facilitating seamless information exchange between
               individuals and machines, and in the process, unlocking
               unparalleled levels of productivity and creativity.
             </span>
-            <span className="home-description08">
+            <span className="home-description09">
               The transformation we envision is profound. Programming will
               reduce to conversation. Software engineering becomes mere
               specification of requirements and natural feedback. The boundary
@@ -503,7 +532,7 @@ const Home = (props) => {
               needs and preferences. The result? A massive surge in productivity
               and creativity across all sectors and industries.
             </span>
-            <span className="home-description09">
+            <span className="home-description10">
               In our pursuit to redefine computation, we stand steadfast in our
               belief that artificial intelligence (AI) holds an immense
               potential to revolutionize industries and spur innovation. This
@@ -513,12 +542,12 @@ const Home = (props) => {
               visionaries—those who don&apos;t just see the future but want to
               create it.
             </span>
-            <span className="home-description10">
+            <span className="home-description11">
               We are ComputaCo. We&apos;re reimagining what computation means,
               reengineering the relationship between humans and machines, and
               reshaping the landscape of productivity and creativity.
             </span>
-            <span className="home-description11">
+            <span className="home-description12">
               Join us as we embark on this transformative journey. Let&apos;s
               redefine the future of computation together.
             </span>
@@ -527,22 +556,22 @@ const Home = (props) => {
             <img
               alt="image"
               src="/linkedin-sales-solutions-hrhjn6ztgrm-unsplash%201-700w.png"
-              className="home-image07"
+              className="home-image08"
             />
             <img
               alt="image"
               src="/austin-distel-800w.png"
-              className="home-image08"
+              className="home-image09"
             />
           </div>
           <div className="home-recruit">
             <div className="home-container4">
-              <h2 className="home-text068">
+              <h2 className="home-text073">
                 <span>Calling all intelligences</span>
                 <br></br>
               </h2>
-              <span className="home-description12">
-                <span className="home-text071">
+              <span className="home-description13">
+                <span className="home-text076">
                   We hold ourselves to high standards. Specifically, we&apos;re
                   looking for engineers who are
                 </span>
@@ -552,31 +581,31 @@ const Home = (props) => {
             </div>
             <div className="home-sections">
               <div className="home-section2">
-                <span className="home-text074">
+                <span className="home-text079">
                   <span>trailblazers</span>
                   <br></br>
                 </span>
-                <span className="home-text077">
+                <span className="home-text082">
                   ones constantly pushing the envelope, who aren&apos;t afraid
                   to challenge the status quo, never settling for &quot;good
                   enough&quot;
                 </span>
               </div>
               <div className="home-section3">
-                <span className="home-text078">
+                <span className="home-text083">
                   <span>team players</span>
                   <br></br>
                 </span>
-                <span className="home-text081">
+                <span className="home-text086">
                   authentic, humble, empathetic, kind individuals
                 </span>
               </div>
               <div className="home-section4">
-                <span className="home-text082">
+                <span className="home-text087">
                   <span>automators</span>
                   <br></br>
                 </span>
-                <span className="home-text085">
+                <span className="home-text090">
                   <span>
                     someone who is resourceful with their intelligence and time,
                     who delegates extensively to AI
@@ -585,19 +614,19 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-section5">
-                <span className="home-text088">learners</span>
-                <span className="home-text089">
+                <span className="home-text093">learners</span>
+                <span className="home-text094">
                   someone who actually reads the papers, doesn&apos;t rely on
                   &quot;the way it was done last month&quot;
                 </span>
               </div>
             </div>
-            <span className="home-description13">
+            <span className="home-description14">
               <span>Is ComputaCo is your calling?</span>
               <br></br>
             </span>
-            <button className="home-button2 button">
-              <span className="home-text092">
+            <button className="home-button3 button">
+              <span className="home-text097">
                 <span>join us</span>
                 <br></br>
               </span>
@@ -606,127 +635,26 @@ const Home = (props) => {
         </div>
       </div>
       <footer className="home-footer">
-        <div className="home-header4">
-          <span className="home-branding2">ComputaCo</span>
-          <div className="home-socials">
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link03"
-            >
-              <img
-                alt="image"
-                src="/facebook%20-%20negative.svg"
-                className="home-image09 social"
-              />
-            </a>
-            <span>hello@computaco.ai</span>
-            <a
-              href="https://twitter.com/computaco"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link04"
-            >
-              <img
-                alt="image"
-                src="/twitter%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link05"
-            >
-              <img
-                alt="image"
-                src="/dribbble%20-%20negative.svg"
-                className="home-image11 social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link06"
-            >
-              <img
-                alt="image"
-                src="/instagram%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/company/computaco/"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link07"
-            >
-              <img
-                alt="image"
-                src="/linkedin%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://www.youtube.com/@ComputaCoInc"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link08"
-            >
-              <img
-                alt="image"
-                src="/youtube%20-%20negative.svg"
-                className="social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link09"
-            >
-              <img
-                alt="image"
-                src="/telegram%20-%20negative.svg"
-                className="home-image15 social"
-              />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link10"
-            >
-              <img
-                alt="image"
-                src="/medium%20-%20negative.svg"
-                className="home-image16 social"
-              />
-            </a>
-          </div>
-        </div>
-        <div className="home-content2">
+        <Footer></Footer>
+        <div className="home-content3">
           <div className="home-contact">
             <span className="home-email">hello@computaco.ai</span>
             <span className="home-number">+1 682.351.8740</span>
           </div>
           <div className="home-links-row">
             <div className="home-links-column">
-              <span className="home-link11">Responsive Web Design</span>
-              <span className="home-link12">Design to Code</span>
-              <span className="home-link13">Static Website Designer</span>
-              <span className="home-link14">Static Website Generator</span>
+              <span className="home-link04">Responsive Web Design</span>
+              <span className="home-link05">Design to Code</span>
+              <span className="home-link06">Static Website Designer</span>
+              <span className="home-link07">Static Website Generator</span>
             </div>
             <div className="home-links-column1">
-              <span className="home-link15">About</span>
-              <span className="home-link16">Team</span>
-              <span className="home-link17">News</span>
-              <span className="home-link18">Partners</span>
-              <span className="home-link19">Careers</span>
-              <span className="home-link20">Press &amp; Media</span>
+              <span className="home-link08">About</span>
+              <span className="home-link09">Team</span>
+              <span className="home-link10">News</span>
+              <span className="home-link11">Partners</span>
+              <span className="home-link12">Careers</span>
+              <span className="home-link13">Press &amp; Media</span>
             </div>
           </div>
         </div>
@@ -776,7 +704,7 @@ const Home = (props) => {
             </span>
           </div>
         </div>
-        <div className="home-socials1">
+        <div className="home-socials">
           <div className="home-row1">
             <a
               href="https://example.com"
